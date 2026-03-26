@@ -2,6 +2,16 @@
 
 本仓库是可直接本地部署的精简发布包，仅保留运行所需代码与配置。
 
+
+##由于github传输限制，需要将以下zip文件解压缩后，部署运行本项目：
+\frontend\lib.zip
+
+\frontend\components.zip
+
+\frontend\app.zip
+
+
+
 ## 1. 包含内容
 
 ```text
