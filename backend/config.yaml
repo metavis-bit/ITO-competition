@@ -1,0 +1,178 @@
+# ============================================================
+# Edu-RAG Final Config (Recommended)
+# - Vector DB: Milvus Standalone (Docker) + HNSW
+# - Retrieval: BM25 + BGE-M3 dense+sparse hybrid + RRF + rerank + diversity
+# - Generator/VLM: Qwen via OpenAI-compatible API (DashScope / vLLM / etc.)
+# ============================================================
+
+store_dir: ./rag_store
+
+# Batch sizes / knobs
+embedding_batch_size: 64
+rerank_top_n: 50
+final_max_per_doc: 3
+
+chunking:
+  # 教学资料段落级召回更稳
+  chunk_size: 500
+  chunk_overlap: 50
+
+# ---------------- Embedding (Local) ----------------
+# 说明：本项目 embedder 以本地路径方式加载 SentenceTransformer。
+# 因此这里必须是本地目录（./models/bge-m3），不要写 "BAAI/bge-m3"。
+embedding_model:
+  type: bge-m3
+  name_or_path: ./models/bge-m3
+  device: cuda
+  batch_size: 64
+  use_fp16: true
+
+# ---------------- Vector Store (Milvus Standalone) ----------------
+vector_store:
+  # Milvus Docker 暴露的 gRPC 端口
+  uri: "127.0.0.1:19530"
+
+  metric_type: COSINE
+  index_type: HNSW
+  index_params:
+    M: 16
+    efConstruction: 200
+  search_params:
+    ef: 64
+
+  # Sparse vector search (BGE-M3 sparse) + hybrid
+  enable_sparse: true
+  sparse_field: sparse_vector
+  sparse_metric_type: IP
+  sparse_index_params:
+    index_type: SPARSE_INVERTED_INDEX
+    params:
+      inverted_index_algo: DAAT_MAXSCORE
+
+# ---------------- Retrieval ----------------
+retrieval:
+  use_bm25: true
+  use_dense: true
+  use_sparse: true
+
+  bm25_k: 30
+  dense_k: 60
+  sparse_k: 60
+  candidate_k: 80
+
+  # 融合推荐：RRF
+  fusion: rrf
+  rrf_k: 60
+  weights:
+    bm25: 0.25
+    dense: 1.0
+    sparse: 0.75
+    hybrid: 1.0
+
+  # 优先用 Milvus native hybrid_search（如版本不支持，会自动退化为外部融合）
+  use_milvus_hybrid: true
+  milvus_hybrid_ranker: rrf
+  milvus_hybrid_rrf_k: 60
+
+  # 多样性 + 邻近块扩展
+  max_per_doc_candidates: 5
+  neighbor_window: 1
+  neighbor_decay: 0.15
+
+# ---------------- Reranker (Local) ----------------
+reranker:
+  name_or_path: ./models/bge-reranker-large
+  device: cuda
+  batch_size: 32
+
+# ---------------- Generator (Qwen API) ----------------
+# CPU 本地推理慢：推荐 API 模式
+# 运行前需要 export OPENAI_BASE_URL / OPENAI_API_KEY
+# DashScope 兼容地址示例：
+#   export OPENAI_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
+#   export OPENAI_API_KEY="你的key"
+generator:
+  mode: api
+  api_model: qwen-plus-latest
+  api_base_url_env: OPENAI_BASE_URL
+  api_key_env: OPENAI_API_KEY
+  timeout_sec: 120
+
+  max_new_tokens: 512
+  temperature: 0.2
+
+  # local 备用
+  local_model_path: ./models/Qwen2.5-1.5B-Instruct
+  device: cuda
+
+# ---------------- Parsing (Multi-modal Ingestion) ----------------
+parsing:
+  pdf:
+    use_pdfplumber: true
+    extract_tables: true
+    render_page_images: true
+    ocr_if_no_text: true
+    ocr_threshold_chars: 50
+    clean_regexes:
+      - '^\\s*\\d+\\s*$'
+      - '^\\s*第\\s*\\d+\\s*页\\s*(/\\s*共\\s*\\d+\\s*页)?\\s*$'
+      - '^\\s*Page\\s*\\d+\\s*(of\\s*\\d+)?\\s*$'
+    remove_repeated_header_footer: true
+    repeated_line_ratio: 0.6
+
+  image:
+    ocr: true
+    use_vlm_if_ocr_sparse: true
+    ocr_sparse_chars: 30
+    detect_chart_like: true
+    chart_like_hough_lines: 25
+    vlm_prompt: |
+      请详细分析这张图：
+      - 如果是统计图/折线图/柱状图：描述坐标含义、数据趋势与结论
+      - 如果是流程图：概括核心步骤与关键输入输出
+      - 如果是结构/解剖图：解释各部位名称与功能
+      - 如果包含关键文字：请优先提取并解释
+
+  audio:
+    prefer: faster-whisper
+    model_size: medium
+    device: cuda             # 新增这行
+    compute_type: float16    # 新增这行
+    segment_level: true
+
+  video:
+    prefer: faster-whisper
+    model_size: medium
+    device: cuda             # 新增这行
+    compute_type: float16    # 新增这行
+    segment_level: true
+    extract_frames: true
+    frame_interval_sec: 5
+    max_frames: 20
+    ocr_frames: false
+    describe_frames_with_vlm: true
+    vlm_max_frames: 8
+    vlm_if_ocr_sparse: true
+    ocr_sparse_chars: 30
+    vlm_prompt: |
+      请详细描述这张图片中的教学内容、图表信息和关键文字。
+    combine_asr_and_frames: true
+
+  excel:
+    max_rows: 200
+    max_cols: 30
+
+# ---------------- VLM (Qwen-VL API) ----------------
+vlm:
+  enabled: true
+  mode: api
+  api_model: qwen2.5-vl-7b-instruct
+  api_base_url_env: OPENAI_BASE_URL
+  api_key_env: OPENAI_API_KEY
+  timeout_sec: 120
+  max_new_tokens: 256
+  temperature: 0.2
+
+  # local 备用
+  local_model_path: ./models/Qwen2.5-VL-3B-Instruct
+  device: cuda
