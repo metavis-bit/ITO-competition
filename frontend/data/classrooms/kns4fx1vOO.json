@@ -1,0 +1,1049 @@
+{
+  "id": "kns4fx1vOO",
+  "stage": {
+    "id": "kns4fx1vOO",
+    "name": "教学目标: 希望学生学完后重点掌握转录和翻译的过程；难点: 儿你自行决定、教材版本参考高中生物必修二",
+    "description": "",
+    "createdAt": 1774872661176,
+    "updatedAt": 1774879877646,
+    "language": "zh-CN",
+    "style": "professional",
+    "currentSceneId": "KftOUo5Gju6xi-Wcemyfw",
+    "backendSessionId": "tH_2gXb8ojz_pQxlA0zkR",
+    "backendVersionId": "ver_f56deb04",
+    "outputTypes": [
+      "pptx",
+      "docx",
+      "game_html",
+      "animation_html"
+    ],
+    "backendArtifacts": [
+      {
+        "artifact_id": "e3518920d3",
+        "type": "pptx",
+        "file_path": "outputs\\tH_2gXb8ojz_pQxlA0zkR\\versions\\ver_f56deb04\\ppt\\ppt_教学目标__希望学生学完后重点掌握转录和翻译的过程_难点___20260330_201250.pptx",
+        "metadata": {
+          "version_id": "ver_f56deb04",
+          "version_note": "Generation v1"
+        },
+        "generation_time_sec": 0,
+        "error": null
+      },
+      {
+        "artifact_id": "97e4f9b7eb",
+        "type": "docx",
+        "file_path": "outputs\\tH_2gXb8ojz_pQxlA0zkR\\versions\\ver_f56deb04\\docx\\docx_教学目标__希望学生学完后重点掌握转录和翻译的过程_难点___20260330_201250.docx",
+        "metadata": {
+          "version_id": "ver_f56deb04",
+          "version_note": "Generation v1"
+        },
+        "generation_time_sec": 0,
+        "error": null
+      },
+      {
+        "artifact_id": "b46499dea9",
+        "type": "game_html",
+        "file_path": "outputs\\tH_2gXb8ojz_pQxlA0zkR\\versions\\ver_f56deb04\\games\\game_quiz_中心法则与碱基配对测试_20260330_201555.html",
+        "metadata": {
+          "version_id": "ver_f56deb04",
+          "version_note": "Generation v1",
+          "all_paths": [
+            "outputs\\tH_2gXb8ojz_pQxlA0zkR\\versions\\ver_f56deb04\\games\\game_quiz_中心法则与碱基配对测试_20260330_201555.html"
+          ]
+        },
+        "generation_time_sec": 0,
+        "error": null
+      },
+      {
+        "artifact_id": "2b2590fe56",
+        "type": "animation_html",
+        "file_path": "outputs\\tH_2gXb8ojz_pQxlA0zkR\\versions\\ver_f56deb04\\animations\\animation_教学目标__希望学生学完后重点掌握转录和翻译的过程_难点___20260330_201555.html",
+        "metadata": {
+          "version_id": "ver_f56deb04",
+          "version_note": "Generation v1"
+        },
+        "generation_time_sec": 0,
+        "error": null
+      }
+    ],
+    "backendPlan": {
+      "slide_count": 7,
+      "game_count": 1,
+      "intent": "学科: 生物\n年级: 高一\n主题: 教学目标: 希望学生学完后重点掌握转录和翻译的过程；难点: 儿你自行决定、教材版本参考高中生物必修二\n教学目标: 教学目标: 希望学生学完后重点掌握转录和翻译的过程；难点: 儿你自行决定、教材版本参考高中生物必修二\n授课对象: 高一\n重点: 转录, 翻译, 难点: 儿你自行决定, 教材版本参考高中生物必修二\n难点: \n教学思路: \n页数范围: 6-8",
+      "slides": [
+        {
+          "slide_number": 1,
+          "title": "基因的表达：转录与翻译",
+          "bullet_points": [
+            "主讲人：资深生物教学专家",
+            "适用年级：高一必修二",
+            "主题：中心法则与蛋白质合成"
+          ],
+          "notes": "封面页主要用于明确课程主题与授课对象。教师可简要介绍本节课在遗传学中的核心地位，激发学生对生命奥秘的探索兴趣。",
+          "layout": "cover",
+          "visual_suggestion": "背景使用 DNA 双螺旋结构淡入效果，配以 RNA 聚合酶与核糖体的剪影图标",
+          "image_path": null
+        },
+        {
+          "slide_number": 2,
+          "title": "中心法则与信息流向",
+          "bullet_points": [
+            "遗传信息从 DNA 流向 RNA 再流向蛋白质，体现了生命物质能量信息的统一。",
+            "克里克提出中心法则，后经科学家补充了 RNA 复制及逆转录过程。",
+            "DNA 和 RNA 是信息的载体，蛋白质是信息的表达产物，ATP 提供能量。",
+            "少数病毒如 HIV 的遗传信息储存在 RNA 中，遵循特殊的传递规律。",
+            "生命活动是物质、能量和信息高度统一的复杂系统，具有严密逻辑性。"
+          ],
+          "notes": "本环节需详细解释 RNA 聚合酶的作用机理及启动子在 DNA 上的位置。教师应引导学生思考为何转录不需要引物，并与 DNA 复制过程进行对比分析，从而深化对酶特性的理解。",
+          "layout": "content",
+          "visual_suggestion": "展示中心法则完整流程图，高亮显示 DNA 复制、转录、翻译三个主要路径",
+          "image_path": null
+        },
+        {
+          "slide_number": 3,
+          "title": "转录过程详解",
+          "bullet_points": [
+            "转录是以 DNA 的一条链为模板，按照碱基互补配对原则合成 RNA 的过程。",
+            "主要在细胞核内进行，需要 RNA 聚合酶催化，无需解旋酶单独作用。",
+            "原料为四种游离的核糖核苷酸，产物包括 mRNA、tRNA 和 rRNA 三种类型。",
+            "碱基配对方式为 A-U、T-A、G-C、C-G，其中尿嘧啶 U 替代胸腺嘧啶 T。",
+            "转录结束后 RNA 聚合酶脱离，DNA 双螺旋结构恢复，新合成的 RNA 释放。"
+          ],
+          "notes": "本环节需详细解释 RNA 聚合酶的作用机理及启动子在 DNA 上的位置。教师应引导学生思考为何转录不需要引物，并与 DNA 复制过程进行对比分析，从而深化对酶特性的理解。",
+          "layout": "content",
+          "visual_suggestion": "动画演示 DNA 局部解旋，核糖核苷酸依次结合形成 mRNA 链的动态过程",
+          "image_path": null
+        },
+        {
+          "slide_number": 4,
+          "title": "翻译过程详解",
+          "bullet_points": [
+            "翻译是在核糖体上，以 mRNA 为模板，利用 tRNA 转运氨基酸合成多肽链。",
+            "场所为细胞质中的核糖体，原料为二十种氨基酸，需要 ATP 提供能量。",
+            "mRNA 分子上可结合多个核糖体，同时合成多条相同的多肽链提高效率。",
+            "密码子决定氨基酸种类，反密码子位于 tRNA 上，两者互补配对识别。",
+            "翻译终止时遇到终止密码子，多肽链释放，经盘曲折叠形成具有一定空间结构的蛋白质。"
+          ],
+          "notes": "教师需强调翻译主要发生在细胞核外，而翻译则在细胞质的核糖体上进行。务必提醒学生区分 DNA 复制与转录中碱基配对的不同之处，避免混淆。",
+          "layout": "content",
+          "visual_suggestion": "展示多聚核糖体结构图，突出单个 mRNA 上同时进行多条肽链合成的高效性",
+          "image_path": null
+        },
+        {
+          "slide_number": 5,
+          "title": "关键差异对比分析",
+          "bullet_points": [
+            "转录发生在细胞核，翻译发生在细胞质，两者在时空上可能存在分离。",
+            "转录产物是 RNA，翻译产物是多肽链，两者化学本质与功能截然不同。",
+            "转录涉及 DNA 模板，翻译涉及 mRNA 模板，且翻译需要 tRNA 作为搬运工具。",
+            "转录碱基配对含 T-A，翻译碱基配对无 T-A，这是区分两者的关键特征之一。",
+            "转录需要 RNA 聚合酶，翻译需要多种酶及核糖体参与，催化体系不同。"
+          ],
+          "notes": "本环节重点在于帮助学生建立对比思维。教师应列举具体实例，让学生填写对比表格，强化记忆。通过辨析易错点，提升学生逻辑思维能力。",
+          "layout": "content",
+          "visual_suggestion": "左右分栏表格设计，左侧列转录特征，右侧列翻译特征，中间用箭头表示联系",
+          "image_path": null
+        },
+        {
+          "slide_number": 6,
+          "title": "难点突破：密码子与反密码子",
+          "bullet_points": [
+            "密码子位于 mRNA 上，共有 64 种，其中 61 种编码氨基酸，3 种为终止密码子。",
+            "反密码子位于 tRNA 一端，能与 mRNA 上的密码子进行特异性碱基互补配对。",
+            "一种氨基酸可由多种密码子编码，这称为密码子的简并性，增强容错能力。",
+            "一种 tRNA 只能转运一种氨基酸，但一种氨基酸可由多种 tRNA 转运。",
+            "起始密码子既编码甲硫氨酸又启动翻译，终止密码子不编码氨基酸仅起信号作用。"
+          ],
+          "notes": "此部分为高频考点。教师需通过板书推导示例，演示如何根据 DNA 序列推导氨基酸序列。强调阅读方向是从 5'端到 3'端，避免方向性错误导致结果偏差。",
+          "layout": "content",
+          "visual_suggestion": "放大展示 tRNA 三叶草结构与 mRNA 结合的特写图，标注密码子与反密码子位置",
+          "image_path": null
+        },
+        {
+          "slide_number": 7,
+          "title": "课堂总结与知识建构",
+          "bullet_points": [
+            "遗传信息传递遵循中心法则，实现了基因对性状的控制。",
+            "转录与翻译是基因表达的两个核心阶段，缺一不可且紧密相连。",
+            "生物大分子以碳链为骨架，核酸与蛋白质共同支撑生命活动。",
+            "通过本节学习，初步形成生命的物质观与结构功能相适应观念。",
+            "关注健康饮食，理解过量摄入糖类脂质对代谢平衡的影响及意义。"
+          ],
+          "notes": "总结页需梳理整节课的知识脉络。教师引导学生回顾重难点，布置课后作业巩固。鼓励学生将生物学原理应用于解释生活中的遗传现象，培养科学态度。",
+          "layout": "summary",
+          "visual_suggestion": "思维导图形式呈现本节课核心概念，中心为基因表达，分支为转录、翻译及中心法则",
+          "image_path": null
+        }
+      ],
+      "lesson_plan_sections": [
+        {
+          "section": "课程导入与概念引入",
+          "duration": "5 分钟",
+          "content": "课程导入部分展示 HIV 病毒遗传物质特殊性，引出中心法则的补充内容。主体环节通过动画演示基因表达全过程，组织学生绘制流程图，落实核心素养目标。",
+          "method": "教师利用希沃白板展示动态模型，学生动手拼接核苷酸序列。通过小组竞赛形式检测知识点掌握情况，及时反馈并纠正错误认知，确保教学目标达成。"
+        },
+        {
+          "section": "核心过程讲解与互动",
+          "duration": "25 分钟",
+          "content": "通过多媒体动态演示中心法则的信息流向，引导学生自主构建基因表达模型。结合具体案例解析转录翻译的关键步骤，强化对遗传信息流动规律的理解与应用能力。",
+          "method": "采用问题驱动法，教师提出关键疑问，学生小组合作探究碱基配对规则。通过实物模型模拟分子过程，师生共同纠错，提升课堂参与度与知识掌握度。"
+        },
+        {
+          "section": "难点突破与巩固练习",
+          "duration": "10 分钟",
+          "content": "针对密码子与反密码子的对应关系进行专项训练，通过典型例题分析解题思路。总结易错点，如模板链选择、碱基转换等，确保学生能够准确应用所学知识解决实际问题。",
+          "method": "教师引导分析错题原因，学生独立完成变式练习。邀请学生代表上台讲解解题过程，全班共同评价，形成良好的生生互动与师生互动氛围。"
+        },
+        {
+          "section": "课堂总结与作业布置",
+          "duration": "5 分钟",
+          "content": "总结页需梳理整节课的知识脉络。教师引导学生回顾重难点，布置课后作业巩固。鼓励学生将生物学原理应用于解释生活中的遗传现象，培养科学态度。",
+          "method": "采用问题驱动法，教师提出关键疑问，学生小组合作探究碱基配对规则。通过实物模型模拟分子过程，师生共同纠错，提升课堂参与度与知识掌握度。"
+        }
+      ],
+      "game_specs": [
+        {
+          "type": "quiz",
+          "topic": "中心法则与碱基配对测试",
+          "questions": [
+            {
+              "id": "q_1",
+              "question": "下列哪项不是转录过程的必要条件？",
+              "options": [
+                "A. DNA 模板",
+                "B. 核糖核苷酸",
+                "C. 解旋酶",
+                "D. RNA 聚合酶"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "q_2",
+              "question": "在翻译过程中，tRNA 的功能是什么？",
+              "options": [
+                "A. 携带氨基酸",
+                "B. 作为模板",
+                "C. 催化肽键形成",
+                "D. 储存遗传信息"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "q_3",
+              "question": "若 DNA 模板链片段为 ATCG，则转录出的 mRNA 序列为？",
+              "options": [
+                "A. TAGC",
+                "B. UAGC",
+                "C. AUCG",
+                "D. ATCG"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ],
+      "animation_steps": [
+        {
+          "icon": "🔬",
+          "title": "中心法则概述",
+          "description": "展示遗传信息从 DNA 到 RNA 再到蛋白质的整体流向框架。"
+        },
+        {
+          "icon": "🧬",
+          "title": "DNA 双链解旋",
+          "description": "模拟 DNA 双螺旋结构局部打开，暴露出模板链的过程。"
+        },
+        {
+          "icon": "📝",
+          "title": "转录合成 mRNA",
+          "description": "核糖核苷酸依据碱基互补原则连接到 DNA 模板链上形成 RNA。"
+        },
+        {
+          "icon": "🏭",
+          "title": "核糖体结合位点",
+          "description": "mRNA 进入细胞质并与核糖体小亚基结合，准备开始翻译。"
+        },
+        {
+          "icon": "🧵",
+          "title": "tRNA 搬运氨基酸",
+          "description": "携带特定氨基酸的 tRNA 通过反密码子识别 mRNA 上的密码子。"
+        },
+        {
+          "icon": "🔗",
+          "title": "肽键连接延伸",
+          "description": "氨基酸之间脱水缩合形成肽键，多肽链随着核糖体移动不断延长。"
+        },
+        {
+          "icon": "🛑",
+          "title": "翻译终止释放",
+          "description": "遇到终止密码子，多肽链释放，核糖体解体，蛋白质合成结束。"
+        }
+      ]
+    },
+    "backendErrors": [],
+    "backendMissingArtifacts": {
+      "required": [],
+      "optional": []
+    }
+  },
+  "scenes": [
+    {
+      "id": "x6zZ3S42auZng4B0JRvR-",
+      "stageId": "kns4fx1vOO",
+      "type": "slide",
+      "title": "基因的表达：转录与翻译",
+      "order": 0,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "V0xAEiP0wWK_lmAz3KLbU",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "6iow-0OXpO4dz0YBGLF4K",
+              "type": "text",
+              "left": 48,
+              "top": 96,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:34px;font-weight:700;color:#174f37;line-height:1.25\">基因的表达：转录与翻译</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "2X_LYAKuCRAcZWvV-F14E",
+              "type": "text",
+              "left": 48,
+              "top": 200,
+              "width": 472,
+              "height": 96,
+              "content": "<p style=\"text-align:center;font-size:17px;color:#456154;line-height:1.8\">封面页主要用于明确课程主题与授课对象。教师可简要介绍本节课在遗传学中的核心地位，激发学生对生命奥秘的探索兴趣。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "1JGppkND-9LSNTQJjlVZm",
+              "type": "text",
+              "left": 48,
+              "top": 320,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>主讲人：资深生物教学专家</li><li>适用年级：高一必修二</li><li>主题：中心法则与蛋白质合成</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "Pvf2vfyWAtTYts84NIXZf",
+              "type": "image",
+              "left": 558,
+              "top": 122,
+              "width": 360,
+              "height": 300,
+              "src": "/v1/assets/images/genetics_evolution_overview.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_1sbmaOyr",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "封面页主要用于明确课程主题与授课对象。教师可简要介绍本节课在遗传学中的核心地位，激发学生对生命奥秘的探索兴趣。。主讲人：资深生物教学专家；适用年级：高一必修二；主题：中心法则与蛋白质合成。背景使用 DNA 双螺旋结构淡入效果，配以 RNA 聚合酶与核糖体的剪影图标"
+        }
+      ],
+      "createdAt": 1774879877645,
+      "updatedAt": 1774879877645
+    },
+    {
+      "id": "oISrUJew0CLu6pvYOtvD2",
+      "stageId": "kns4fx1vOO",
+      "type": "slide",
+      "title": "中心法则与信息流向",
+      "order": 1,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "JYYp5mUY1_UiWC77tWOXf",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "7U0OpWCA6N8ctJkgPrBE0",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">中心法则与信息流向</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "brIP8LaYiJI6lg7yx4ZHH",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">本环节需详细解释 RNA 聚合酶的作用机理及启动子在 DNA 上的位置。教师应引导学生思考为何转录不需要引物，并与 DNA 复制过程进行对比分析，从而深化对酶特性的理解。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "IluKB7KdPbKgbXGiSr8sL",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>遗传信息从 DNA 流向 RNA 再流向蛋白质，体现了生命物质能量信息的统一。</li><li>克里克提出中心法则，后经科学家补充了 RNA 复制及逆转录过程。</li><li>DNA 和 RNA 是信息的载体，蛋白质是信息的表达产物，ATP 提供能量。</li><li>少数病毒如 HIV 的遗传信息储存在 RNA 中，遵循特殊的传递规律。</li><li>生命活动是物质、能量和信息高度统一的复杂系统，具有严密逻辑性。</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "oHb_5dqHLEc_jOl1wpUBv",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/transcription_textbook.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_SO757Dt6",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "本环节需详细解释 RNA 聚合酶的作用机理及启动子在 DNA 上的位置。教师应引导学生思考为何转录不需要引物，并与 DNA 复制过程进行对比分析，从而深化对酶特性的理解。。遗传信息从 DNA 流向 RNA 再流向蛋白质，体现了生命物质能量信息的统一。；克里克提出中心法则，后经科学家补充了 RNA 复制及逆转录过程。；DNA 和 RNA 是信息的载体，蛋白质是信息的表达产物，ATP 提供能量。；少数病毒如 HIV 的遗传信息储存在 RNA 中，遵循特殊的传递规律。；生命活动是物质、能量和信息高度统一的复杂系统，具有严密逻辑性。。展示中心法则完整流程图，高亮显示 DNA 复制、转录、翻译三个主要路径"
+        }
+      ],
+      "createdAt": 1774879877645,
+      "updatedAt": 1774879877645
+    },
+    {
+      "id": "9HvpsHCdGlE4BQGLRjc5N",
+      "stageId": "kns4fx1vOO",
+      "type": "slide",
+      "title": "转录过程详解",
+      "order": 2,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "tbyLmlG0-dTWv2LY4nrFL",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "GkAKtHCN97k9D2096KdMw",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">转录过程详解</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "vLHTHo5k1Iok4TdpugVU_",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">本环节需详细解释 RNA 聚合酶的作用机理及启动子在 DNA 上的位置。教师应引导学生思考为何转录不需要引物，并与 DNA 复制过程进行对比分析，从而深化对酶特性的理解。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "QesLt2he6azcdMw9OjiBK",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>转录是以 DNA 的一条链为模板，按照碱基互补配对原则合成 RNA 的过程。</li><li>主要在细胞核内进行，需要 RNA 聚合酶催化，无需解旋酶单独作用。</li><li>原料为四种游离的核糖核苷酸，产物包括 mRNA、tRNA 和 rRNA 三种类型。</li><li>碱基配对方式为 A-U、T-A、G-C、C-G，其中尿嘧啶 U 替代胸腺嘧啶 T。</li><li>转录结束后 RNA 聚合酶脱离，DNA 双螺旋结构恢复，新合成的 RNA 释放。</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "RENiCpV9LCpITQdQHnMdg",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/dna_replication_notes.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_hTe6e73E",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "本环节需详细解释 RNA 聚合酶的作用机理及启动子在 DNA 上的位置。教师应引导学生思考为何转录不需要引物，并与 DNA 复制过程进行对比分析，从而深化对酶特性的理解。。转录是以 DNA 的一条链为模板，按照碱基互补配对原则合成 RNA 的过程。；主要在细胞核内进行，需要 RNA 聚合酶催化，无需解旋酶单独作用。；原料为四种游离的核糖核苷酸，产物包括 mRNA、tRNA 和 rRNA 三种类型。；碱基配对方式为 A-U、T-A、G-C、C-G，其中尿嘧啶 U 替代胸腺嘧啶 T。；转录结束后 RNA 聚合酶脱离，DNA 双螺旋结构恢复，新合成的 RNA 释放。。动画演示 DNA 局部解旋，核糖核苷酸依次结合形成 mRNA 链的动态过程"
+        }
+      ],
+      "createdAt": 1774879877645,
+      "updatedAt": 1774879877645
+    },
+    {
+      "id": "-RPlMQF-i_QzH9LveDonZ",
+      "stageId": "kns4fx1vOO",
+      "type": "slide",
+      "title": "翻译过程详解",
+      "order": 3,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "8JN26IY3FlLlpmeV0DjJQ",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "rl-Pgi-xC53gAiEOc9IW7",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">翻译过程详解</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "KzwbGLrv-7wBBLcTnf4Z2",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">教师需强调翻译主要发生在细胞核外，而翻译则在细胞质的核糖体上进行。务必提醒学生区分 DNA 复制与转录中碱基配对的不同之处，避免混淆。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "5ycFm8-_kLKfCBPmsTZHU",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>翻译是在核糖体上，以 mRNA 为模板，利用 tRNA 转运氨基酸合成多肽链。</li><li>场所为细胞质中的核糖体，原料为二十种氨基酸，需要 ATP 提供能量。</li><li>mRNA 分子上可结合多个核糖体，同时合成多条相同的多肽链提高效率。</li><li>密码子决定氨基酸种类，反密码子位于 tRNA 上，两者互补配对识别。</li><li>翻译终止时遇到终止密码子，多肽链释放，经盘曲折叠形成具有一定空间结构的蛋白质。</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "exnepz6vi_HW17bSusIut",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/transcription_detail.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_hRfPyNt7",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "教师需强调翻译主要发生在细胞核外，而翻译则在细胞质的核糖体上进行。务必提醒学生区分 DNA 复制与转录中碱基配对的不同之处，避免混淆。。翻译是在核糖体上，以 mRNA 为模板，利用 tRNA 转运氨基酸合成多肽链。；场所为细胞质中的核糖体，原料为二十种氨基酸，需要 ATP 提供能量。；mRNA 分子上可结合多个核糖体，同时合成多条相同的多肽链提高效率。；密码子决定氨基酸种类，反密码子位于 tRNA 上，两者互补配对识别。；翻译终止时遇到终止密码子，多肽链释放，经盘曲折叠形成具有一定空间结构的蛋白质。。展示多聚核糖体结构图，突出单个 mRNA 上同时进行多条肽链合成的高效性"
+        }
+      ],
+      "createdAt": 1774879877645,
+      "updatedAt": 1774879877645
+    },
+    {
+      "id": "PHcdiyrkbn77N7qzNOmEs",
+      "stageId": "kns4fx1vOO",
+      "type": "slide",
+      "title": "关键差异对比分析",
+      "order": 4,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "uHeULTMh9OwaNqHcI2EDH",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "z6ySjGd1Z19tf24K1BaF_",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">关键差异对比分析</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "kOAgjhXR3fqKyBkzkeyUc",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">本环节重点在于帮助学生建立对比思维。教师应列举具体实例，让学生填写对比表格，强化记忆。通过辨析易错点，提升学生逻辑思维能力。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "wwJXVjNuT81QV5ligUuS_",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>转录发生在细胞核，翻译发生在细胞质，两者在时空上可能存在分离。</li><li>转录产物是 RNA，翻译产物是多肽链，两者化学本质与功能截然不同。</li><li>转录涉及 DNA 模板，翻译涉及 mRNA 模板，且翻译需要 tRNA 作为搬运工具。</li><li>转录碱基配对含 T-A，翻译碱基配对无 T-A，这是区分两者的关键特征之一。</li><li>转录需要 RNA 聚合酶，翻译需要多种酶及核糖体参与，催化体系不同。</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "6JMPyAG3uWFgw5DX5InPc",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/cell_structure_color.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_5AVm48CF",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "本环节重点在于帮助学生建立对比思维。教师应列举具体实例，让学生填写对比表格，强化记忆。通过辨析易错点，提升学生逻辑思维能力。。转录发生在细胞核，翻译发生在细胞质，两者在时空上可能存在分离。；转录产物是 RNA，翻译产物是多肽链，两者化学本质与功能截然不同。；转录涉及 DNA 模板，翻译涉及 mRNA 模板，且翻译需要 tRNA 作为搬运工具。；转录碱基配对含 T-A，翻译碱基配对无 T-A，这是区分两者的关键特征之一。；转录需要 RNA 聚合酶，翻译需要多种酶及核糖体参与，催化体系不同。。左右分栏表格设计，左侧列转录特征，右侧列翻译特征，中间用箭头表示联系"
+        }
+      ],
+      "createdAt": 1774879877645,
+      "updatedAt": 1774879877645
+    },
+    {
+      "id": "82TfVQPgiK8L5odR42fx4",
+      "stageId": "kns4fx1vOO",
+      "type": "slide",
+      "title": "难点突破：密码子与反密码子",
+      "order": 5,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "KvL_Ef9W2GsdOCnlLePOF",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "71zFYWZP7HwR_KAZkCpKT",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">难点突破：密码子与反密码子</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "jfoaMezHia-8NR5x9hNyj",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">此部分为高频考点。教师需通过板书推导示例，演示如何根据 DNA 序列推导氨基酸序列。强调阅读方向是从 5'端到 3'端，避免方向性错误导致结果偏差。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "jZVjCEwI-msc5HoMC22cL",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>密码子位于 mRNA 上，共有 64 种，其中 61 种编码氨基酸，3 种为终止密码子。</li><li>反密码子位于 tRNA 一端，能与 mRNA 上的密码子进行特异性碱基互补配对。</li><li>一种氨基酸可由多种密码子编码，这称为密码子的简并性，增强容错能力。</li><li>一种 tRNA 只能转运一种氨基酸，但一种氨基酸可由多种 tRNA 转运。</li><li>起始密码子既编码甲硫氨酸又启动翻译，终止密码子不编码氨基酸仅起信号作用。</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_jaVVHfio",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "此部分为高频考点。教师需通过板书推导示例，演示如何根据 DNA 序列推导氨基酸序列。强调阅读方向是从 5'端到 3'端，避免方向性错误导致结果偏差。。密码子位于 mRNA 上，共有 64 种，其中 61 种编码氨基酸，3 种为终止密码子。；反密码子位于 tRNA 一端，能与 mRNA 上的密码子进行特异性碱基互补配对。；一种氨基酸可由多种密码子编码，这称为密码子的简并性，增强容错能力。；一种 tRNA 只能转运一种氨基酸，但一种氨基酸可由多种 tRNA 转运。；起始密码子既编码甲硫氨酸又启动翻译，终止密码子不编码氨基酸仅起信号作用。。放大展示 tRNA 三叶草结构与 mRNA 结合的特写图，标注密码子与反密码子位置"
+        }
+      ],
+      "createdAt": 1774879877645,
+      "updatedAt": 1774879877645
+    },
+    {
+      "id": "HEknUisLCRrkdszs7aqan",
+      "stageId": "kns4fx1vOO",
+      "type": "slide",
+      "title": "课堂总结与知识建构",
+      "order": 6,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "JSb561D6ePwve-q1taRXQ",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "hEX144iYN6UiL4Dmu5OQG",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">课堂总结与知识建构</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "rAbndZMcWt_pcLnJyHYkL",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">总结页需梳理整节课的知识脉络。教师引导学生回顾重难点，布置课后作业巩固。鼓励学生将生物学原理应用于解释生活中的遗传现象，培养科学态度。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "Hn01M-Vpp32FxmB-WJp0n",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>遗传信息传递遵循中心法则，实现了基因对性状的控制。</li><li>转录与翻译是基因表达的两个核心阶段，缺一不可且紧密相连。</li><li>生物大分子以碳链为骨架，核酸与蛋白质共同支撑生命活动。</li><li>通过本节学习，初步形成生命的物质观与结构功能相适应观念。</li><li>关注健康饮食，理解过量摄入糖类脂质对代谢平衡的影响及意义。</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_A9HNb0Cz",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "总结页需梳理整节课的知识脉络。教师引导学生回顾重难点，布置课后作业巩固。鼓励学生将生物学原理应用于解释生活中的遗传现象，培养科学态度。。遗传信息传递遵循中心法则，实现了基因对性状的控制。；转录与翻译是基因表达的两个核心阶段，缺一不可且紧密相连。；生物大分子以碳链为骨架，核酸与蛋白质共同支撑生命活动。；通过本节学习，初步形成生命的物质观与结构功能相适应观念。；关注健康饮食，理解过量摄入糖类脂质对代谢平衡的影响及意义。。思维导图形式呈现本节课核心概念，中心为基因表达，分支为转录、翻译及中心法则"
+        }
+      ],
+      "createdAt": 1774879877645,
+      "updatedAt": 1774879877645
+    },
+    {
+      "id": "dvDcU6640P28GJAs7kJWM",
+      "stageId": "kns4fx1vOO",
+      "type": "interactive",
+      "title": "教案",
+      "order": 7,
+      "content": {
+        "type": "interactive",
+        "url": "/api/artifacts/preview?session_id=tH_2gXb8ojz_pQxlA0zkR&artifact_type=docx&version_id=ver_f56deb04",
+        "resourceKind": "lesson_plan",
+        "artifactType": "docx",
+        "versionId": "ver_f56deb04"
+      },
+      "actions": [
+        {
+          "id": "action_Aw4eATdx",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "这里展示本次生成的完整教案，便于备课、讲授和课堂复盘。"
+        }
+      ],
+      "createdAt": 1774879877646,
+      "updatedAt": 1774879877646
+    },
+    {
+      "id": "TbPP-On9ajDgwT4Cxhi5V",
+      "stageId": "kns4fx1vOO",
+      "type": "interactive",
+      "title": "互动游戏",
+      "order": 8,
+      "content": {
+        "type": "interactive",
+        "url": "/api/artifacts/preview?session_id=tH_2gXb8ojz_pQxlA0zkR&artifact_type=game_html&version_id=ver_f56deb04",
+        "resourceKind": "game",
+        "artifactType": "game_html",
+        "versionId": "ver_f56deb04"
+      },
+      "actions": [
+        {
+          "id": "action_Rpk9zx9P",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "这里展示本次生成的互动游戏，帮助学生在练习中巩固核心知识点。"
+        }
+      ],
+      "createdAt": 1774879877646,
+      "updatedAt": 1774879877646
+    },
+    {
+      "id": "_BBCUyLsdsoL4Nf548WCs",
+      "stageId": "kns4fx1vOO",
+      "type": "interactive",
+      "title": "概念动画",
+      "order": 9,
+      "content": {
+        "type": "interactive",
+        "url": "/api/artifacts/preview?session_id=tH_2gXb8ojz_pQxlA0zkR&artifact_type=animation_html&version_id=ver_f56deb04",
+        "resourceKind": "animation",
+        "artifactType": "animation_html",
+        "versionId": "ver_f56deb04"
+      },
+      "actions": [
+        {
+          "id": "action_5qyfN9lJ",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "这里展示本次生成的概念动画，帮助学生理解过程、结构和变化机理。"
+        }
+      ],
+      "createdAt": 1774879877646,
+      "updatedAt": 1774879877646
+    }
+  ],
+  "createdAt": "2026-03-30T14:11:17.818Z"
+}

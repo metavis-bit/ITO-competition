@@ -1,0 +1,35 @@
+﻿# ---- global ----
+*.log
+*.tmp
+*.cache
+.DS_Store
+Thumbs.db
+
+# ---- frontend ----
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.turbo/
+
+# ---- backend ----
+backend/.venv/
+backend/__pycache__/
+backend/rag_store/*
+!backend/rag_store/.gitkeep
+backend/outputs/*
+!backend/outputs/.gitkeep
+backend/models/*
+!backend/models/.gitkeep
+backend/knowledge_base/*
+!backend/knowledge_base/.gitkeep
+
+# ---- digital human ----
+digital-human/.venv/
+digital-human/.pytest_cache/
+digital-human/data/*
+!digital-human/data/.gitkeep
+
+# ---- python ----
+**/__pycache__/
+*.pyc
+*.pyo

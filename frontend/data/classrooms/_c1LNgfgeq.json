@@ -1,0 +1,1242 @@
+{
+  "id": "_c1LNgfgeq",
+  "stage": {
+    "id": "_c1LNgfgeq",
+    "name": "课题: 关于转录和翻译的课程；教学目标: 就是希望学生学完之后，可以口述出来具体的转录和翻译的过程，然后课时时长大概预计四十分钟吧；授课对象: 高一",
+    "description": "",
+    "language": "zh-CN",
+    "style": "professional",
+    "backendSessionId": "4AiFTKmqQjta-8oZWgQxs",
+    "outputTypes": [
+      "pptx",
+      "docx",
+      "game_html",
+      "animation_html"
+    ],
+    "createdAt": 1774860770937,
+    "updatedAt": 1774861767981,
+    "backendVersionId": "ver_e2db89a2",
+    "backendArtifacts": [
+      {
+        "artifact_id": "f00b9eaea7",
+        "type": "pptx",
+        "file_path": "outputs\\4AiFTKmqQjta-8oZWgQxs\\versions\\ver_e2db89a2\\ppt\\ppt_总结_智绘生物__从分子到生命的逻辑画卷_20260330_170927.pptx",
+        "metadata": {
+          "slide_count": 10,
+          "title": "总结：智绘生物——从分子到生命的逻辑画卷",
+          "version_id": "ver_e2db89a2"
+        },
+        "generation_time_sec": 0.24635934829711914,
+        "error": null
+      }
+    ],
+    "backendPlan": {
+      "slide_count": 10,
+      "game_count": 1,
+      "intent": "学科: 生物\n年级: \n主题: 总结：智绘生物——从分子到生命的逻辑画卷\n教学目标: 回归‘智绘’项目主旨，升华至科学本质与社会责任；结尾设问‘如果重写生命密码，边界在哪里？’激发伦理思辨。\n授课对象: \n重点: 分子与细胞, 遗传与进化, 中心法则, DNA复制\n难点: \n教学思路: \n页数范围: 1-10",
+      "slides": [
+        {
+          "slide_number": 1,
+          "title": "智绘生物——从分子到生命的逻辑画卷",
+          "bullet_points": [
+            "高中生物项目式学习总结",
+            "涵盖《分子与细胞》与《遗传与进化》",
+            "探索生命科学的底层逻辑",
+            "主讲人：资深生物教学专家",
+            "日期：2023 学年"
+          ],
+          "notes": "开场引入，明确本节课是对整个‘智绘生物’项目的总结与升华，强调知识体系的完整性。",
+          "layout": "cover",
+          "visual_suggestion": "背景为 DNA 双螺旋结构与细胞结构融合的艺术图，体现分子到生命的跨越。",
+          "image_path": null
+        },
+        {
+          "slide_number": 2,
+          "title": "基石：分子与细胞的物质基础",
+          "bullet_points": [
+            "细胞是生命活动的基本单位",
+            "蛋白质是生命活动的主要承担者",
+            "核酸是遗传信息的携带者",
+            "糖类与脂质提供能量与结构支持",
+            "物质组成决定生命功能"
+          ],
+          "notes": "回顾必修 1 核心概念，强调物质基础的重要性，为后续遗传信息传递做铺垫。",
+          "layout": "content",
+          "visual_suggestion": "展示细胞亚显微结构图，标注主要化合物分布。",
+          "image_path": null
+        },
+        {
+          "slide_number": 3,
+          "title": "核心：遗传信息的携带者 DNA",
+          "bullet_points": [
+            "DNA 双螺旋结构模型",
+            "碱基互补配对原则",
+            "DNA 复制：半保留复制",
+            "复制过程：解旋、合成、连接",
+            "保证遗传信息的连续性"
+          ],
+          "notes": "重点讲解 DNA 复制机制，这是遗传信息传递的第一步，确保准确性。",
+          "layout": "content",
+          "visual_suggestion": "DNA 复制动态示意图，突出解旋酶和 DNA 聚合酶的作用。",
+          "image_path": null
+        },
+        {
+          "slide_number": 4,
+          "title": "法则：中心法则的信息流动",
+          "bullet_points": [
+            "克里克提出的遗传信息传递规律",
+            "DNA → DNA（复制）",
+            "DNA → RNA → 蛋白质（表达）",
+            "补充：RNA 复制与逆转录",
+            "生命是物质、能量和信息的统一"
+          ],
+          "notes": "阐述中心法则的核心地位，结合参考资料中的图示，说明信息流动的方向。",
+          "layout": "content",
+          "visual_suggestion": "中心法则完整流程图，包含补充路径（虚线表示）。",
+          "image_path": null
+        },
+        {
+          "slide_number": 5,
+          "title": "表达：转录与翻译的精密协作",
+          "bullet_points": [
+            "转录：核内 DNA 到 mRNA",
+            "翻译：质内 mRNA 到蛋白质",
+            "多聚核糖体提高合成效率",
+            "密码子与反密码子的配对",
+            "少量 mRNA 迅速合成大量蛋白质"
+          ],
+          "notes": "详解基因指导蛋白质合成的过程，强调高效性，引用资料中多聚核糖体概念。",
+          "layout": "content",
+          "visual_suggestion": "转录与翻译过程对比图，展示多聚核糖体合成肽链。",
+          "image_path": null
+        },
+        {
+          "slide_number": 6,
+          "title": "传递：减数分裂与遗传规律",
+          "bullet_points": [
+            "减数分裂产生配子",
+            "染色体行为决定基因行为",
+            "分离定律与自由组合定律",
+            "遗传变异进化的基础",
+            "连接分子机制与个体性状"
+          ],
+          "notes": "回顾必修 2 遗传规律，将分子层面的信息与个体层面的性状联系起来。",
+          "layout": "content",
+          "visual_suggestion": "减数分裂染色体行为变化图，标注基因位置。",
+          "image_path": null
+        },
+        {
+          "slide_number": 7,
+          "title": "统一：生命是物质能量信息的统一",
+          "bullet_points": [
+            "DNA/RNA 是信息载体",
+            "蛋白质是信息表达产物",
+            "ATP 为信息流动提供能量",
+            "细胞代谢维持生命秩序",
+            "从分子逻辑到生命现象"
+          ],
+          "notes": "升华主题，总结生命系统的三个核心要素，呼应‘智绘’项目的逻辑画卷。",
+          "layout": "content",
+          "visual_suggestion": "三角形关系图，顶点分别为物质、能量、信息，中心为生命。",
+          "image_path": null
+        },
+        {
+          "slide_number": 8,
+          "title": "回顾：智绘项目学习成果展示",
+          "bullet_points": [
+            "构建分子模型作品展示",
+            "中心法则流程图绘制",
+            "小组合作探究报告",
+            "科学思维能力的提升",
+            "从知识记忆到逻辑构建"
+          ],
+          "notes": "展示学生在项目中的具体成果，肯定学习过程，增强自信心。",
+          "layout": "content",
+          "visual_suggestion": "学生作品照片墙，包含模型、手绘图及报告封面。",
+          "image_path": null
+        },
+        {
+          "slide_number": 9,
+          "title": "思辨：重写生命密码的边界",
+          "bullet_points": [
+            "基因编辑技术的发展现状",
+            "治疗疾病与增强人类的界限",
+            "生态安全与伦理风险",
+            "如果重写生命密码，边界在哪里？",
+            "科学家的社会责任"
+          ],
+          "notes": "提出核心伦理问题，引导学生思考科技发展的双刃剑效应，回归社会责任。",
+          "layout": "content",
+          "visual_suggestion": "天平图标，一端是 DNA 双螺旋，另一端是伦理法则符号。",
+          "image_path": null
+        },
+        {
+          "slide_number": 10,
+          "title": "结语：科学本质与社会责任",
+          "bullet_points": [
+            "科学本质：求真与创新",
+            "技术应用：向善与节制",
+            "保持对生命的敬畏之心",
+            "投身生物科学事业",
+            "智绘未来，责任在肩"
+          ],
+          "notes": "总结全课，升华至科学本质与社会责任，鼓励学生未来投身科学。",
+          "layout": "cover",
+          "visual_suggestion": "背景为晨曦中的实验室或自然生态，象征希望与责任。",
+          "image_path": null
+        }
+      ],
+      "lesson_plan_sections": [
+        {
+          "section": "导入与项目回顾",
+          "duration": "5 分钟",
+          "content": "展示封面，简述智绘项目主旨，回顾分子与细胞基础。",
+          "method": "讲授法、展示法"
+        },
+        {
+          "section": "核心知识逻辑构建",
+          "duration": "20 分钟",
+          "content": "串联 DNA 复制、中心法则、转录翻译及减数分裂，构建知识网络。",
+          "method": "图解分析法、动画演示"
+        },
+        {
+          "section": "互动游戏与伦理思辨",
+          "duration": "15 分钟",
+          "content": "进行中心法则排序游戏，讨论基因编辑伦理边界问题。",
+          "method": "游戏化教学、讨论法"
+        },
+        {
+          "section": "总结与社会责任升华",
+          "duration": "5 分钟",
+          "content": "总结生命统一性，强调科学本质与社会责任，布置课后思考。",
+          "method": "总结法、情感教育"
+        }
+      ],
+      "game_specs": [
+        {
+          "type": "sorting",
+          "topic": "中心法则信息流",
+          "questions": [
+            {
+              "id": "q_1",
+              "question": "请将以下遗传信息传递过程按正确顺序排列",
+              "options": [
+                "DNA 复制 → 转录 → 翻译",
+                "转录 → DNA 复制 → 翻译",
+                "翻译 → 转录 → DNA 复制",
+                "DNA 复制 → 翻译 → 转录"
+              ],
+              "answer": "DNA 复制 → 转录 → 翻译"
+            }
+          ]
+        }
+      ],
+      "animation_steps": [
+        {
+          "icon": "🧬",
+          "title": "DNA 双链解旋",
+          "description": "解旋酶作用使 DNA 双螺旋结构打开，暴露碱基模板。"
+        },
+        {
+          "icon": "📝",
+          "title": "转录合成 mRNA",
+          "description": "以 DNA 一条链为模板，RNA 聚合酶催化合成 mRNA 分子。"
+        },
+        {
+          "icon": "🚚",
+          "title": "mRNA 核孔转运",
+          "description": "合成后的 mRNA 通过核孔进入细胞质，寻找核糖体。"
+        },
+        {
+          "icon": "🔗",
+          "title": "核糖体结合识别",
+          "description": "mRNA 与核糖体结合，tRNA 携带氨基酸识别密码子。"
+        },
+        {
+          "icon": "🧱",
+          "title": "肽链延伸合成",
+          "description": "氨基酸脱水缩合形成肽键，多肽链逐渐延长。"
+        },
+        {
+          "icon": "🌀",
+          "title": "蛋白质折叠加工",
+          "description": "肽链经过折叠修饰形成具有特定空间结构的蛋白质。"
+        }
+      ]
+    },
+    "backendErrors": [],
+    "backendMissingArtifacts": {
+      "required": [],
+      "optional": []
+    }
+  },
+  "scenes": [
+    {
+      "id": "ru1o5q7eG9yGaA40ujjol",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "智绘生物——从分子到生命的逻辑画卷",
+      "order": 0,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "gDeoeJ7knBZ_AqqBZNmk0",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "0YhfaY_YxwFgJmtuOwJLX",
+              "type": "text",
+              "left": 48,
+              "top": 96,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:34px;font-weight:700;color:#174f37;line-height:1.25\">智绘生物——从分子到生命的逻辑画卷</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "kOLEfR4r-oi8Oo7XiMnkP",
+              "type": "text",
+              "left": 48,
+              "top": 200,
+              "width": 472,
+              "height": 96,
+              "content": "<p style=\"text-align:center;font-size:17px;color:#456154;line-height:1.8\">开场引入，明确本节课是对整个‘智绘生物’项目的总结与升华，强调知识体系的完整性。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "UvhTA5WA0R6KLTTOTFcMq",
+              "type": "text",
+              "left": 48,
+              "top": 320,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>高中生物项目式学习总结</li><li>涵盖《分子与细胞》与《遗传与进化》</li><li>探索生命科学的底层逻辑</li><li>主讲人：资深生物教学专家</li><li>日期：2023 学年</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "spP3lEEoDQ3tLGqoXMw2J",
+              "type": "image",
+              "left": 558,
+              "top": 122,
+              "width": 360,
+              "height": 300,
+              "src": "/v1/assets/images/genetics_evolution_overview.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_mCoSk1BR",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "开场引入，明确本节课是对整个‘智绘生物’项目的总结与升华，强调知识体系的完整性。。高中生物项目式学习总结；涵盖《分子与细胞》与《遗传与进化》；探索生命科学的底层逻辑；主讲人：资深生物教学专家；日期：2023 学年。背景为 DNA 双螺旋结构与细胞结构融合的艺术图，体现分子到生命的跨越。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    },
+    {
+      "id": "sFBjz5SL8EE-MJKwWurR_",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "基石：分子与细胞的物质基础",
+      "order": 1,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "Cb4OToD7DNpfIz-wKT1Yl",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "sHRdfGFcmvkryyEL4QCK0",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">基石：分子与细胞的物质基础</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "Yr4sJVb59oMbI9m2LaxAf",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">回顾必修 1 核心概念，强调物质基础的重要性，为后续遗传信息传递做铺垫。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "AdhnOU4um0GcK3kyCvQhi",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>细胞是生命活动的基本单位</li><li>蛋白质是生命活动的主要承担者</li><li>核酸是遗传信息的携带者</li><li>糖类与脂质提供能量与结构支持</li><li>物质组成决定生命功能</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "GL_w0udoabIJHlYQNhwrU",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/bio_mindmap_overview.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_syNuy9Vn",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "回顾必修 1 核心概念，强调物质基础的重要性，为后续遗传信息传递做铺垫。。细胞是生命活动的基本单位；蛋白质是生命活动的主要承担者；核酸是遗传信息的携带者；糖类与脂质提供能量与结构支持；物质组成决定生命功能。展示细胞亚显微结构图，标注主要化合物分布。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    },
+    {
+      "id": "IWaitRyK3bPaasPPSoh2x",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "核心：遗传信息的携带者 DNA",
+      "order": 2,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "zCr8tDZ8r_w4blZkYUJW4",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "VMkcG5Wbp-KMNRortHgi2",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">核心：遗传信息的携带者 DNA</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "cWb9zS3BdPzX6w2Y5I3eq",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">重点讲解 DNA 复制机制，这是遗传信息传递的第一步，确保准确性。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "GdWZbuhxE79KWda6_YhCg",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>DNA 双螺旋结构模型</li><li>碱基互补配对原则</li><li>DNA 复制：半保留复制</li><li>复制过程：解旋、合成、连接</li><li>保证遗传信息的连续性</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "o_-9XNzxI4X7jQUzIC4Id",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/dna_replication_notes.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_XKEcXwy8",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "重点讲解 DNA 复制机制，这是遗传信息传递的第一步，确保准确性。。DNA 双螺旋结构模型；碱基互补配对原则；DNA 复制：半保留复制；复制过程：解旋、合成、连接；保证遗传信息的连续性。DNA 复制动态示意图，突出解旋酶和 DNA 聚合酶的作用。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    },
+    {
+      "id": "BOSZgY5iMxMQiHzXTD-o9",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "法则：中心法则的信息流动",
+      "order": 3,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "39PxTCi1oLGCetk5OQbAC",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "tFy5c2kEWO1t3y9YqzhTz",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">法则：中心法则的信息流动</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "7lwg7Chd60NCq1O9a1DZX",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">阐述中心法则的核心地位，结合参考资料中的图示，说明信息流动的方向。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "nKGa8MtxfkaHh5qtXHRQv",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>克里克提出的遗传信息传递规律</li><li>DNA → DNA（复制）</li><li>DNA → RNA → 蛋白质（表达）</li><li>补充：RNA 复制与逆转录</li><li>生命是物质、能量和信息的统一</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "MsmPPCaP-cPMGLkKqu7N8",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/transcription_textbook.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_qYz0fJKX",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "阐述中心法则的核心地位，结合参考资料中的图示，说明信息流动的方向。。克里克提出的遗传信息传递规律；DNA → DNA（复制）；DNA → RNA → 蛋白质（表达）；补充：RNA 复制与逆转录；生命是物质、能量和信息的统一。中心法则完整流程图，包含补充路径（虚线表示）。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    },
+    {
+      "id": "3Gehc3JtQG3DOlePvgyGN",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "表达：转录与翻译的精密协作",
+      "order": 4,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "gsJJSKPIccazsO0o3JHf4",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "l0hmoBoy50czaJlIHjO-Q",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">表达：转录与翻译的精密协作</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "C8pC5CMaEgWv-KkMz-wYc",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">详解基因指导蛋白质合成的过程，强调高效性，引用资料中多聚核糖体概念。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "3ebMCpWnfJ-GelYBnFaqe",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>转录：核内 DNA 到 mRNA</li><li>翻译：质内 mRNA 到蛋白质</li><li>多聚核糖体提高合成效率</li><li>密码子与反密码子的配对</li><li>少量 mRNA 迅速合成大量蛋白质</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "jyHTB_O1jqvWQOXx1VcuS",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/transcription_detail.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_2HNi9SBK",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "详解基因指导蛋白质合成的过程，强调高效性，引用资料中多聚核糖体概念。。转录：核内 DNA 到 mRNA；翻译：质内 mRNA 到蛋白质；多聚核糖体提高合成效率；密码子与反密码子的配对；少量 mRNA 迅速合成大量蛋白质。转录与翻译过程对比图，展示多聚核糖体合成肽链。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    },
+    {
+      "id": "-25J5OKeWamGg4FvTT_jo",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "传递：减数分裂与遗传规律",
+      "order": 5,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "yqSvxgIwiuT09_NSKfyqT",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "gtxbM4p93pTokeQ48orRF",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">传递：减数分裂与遗传规律</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "8qKIoYNx7uRjXW81R3wGk",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">回顾必修 2 遗传规律，将分子层面的信息与个体层面的性状联系起来。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "7Q52SGc9y8CnzcOyc-_9-",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>减数分裂产生配子</li><li>染色体行为决定基因行为</li><li>分离定律与自由组合定律</li><li>遗传变异进化的基础</li><li>连接分子机制与个体性状</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "6tp9duMlUK3_PYO2p4vOB",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/genetics_mendel.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_qqmFUOG5",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "回顾必修 2 遗传规律，将分子层面的信息与个体层面的性状联系起来。。减数分裂产生配子；染色体行为决定基因行为；分离定律与自由组合定律；遗传变异进化的基础；连接分子机制与个体性状。减数分裂染色体行为变化图，标注基因位置。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    },
+    {
+      "id": "8XVkmaMVw6imxb3Uar4IY",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "统一：生命是物质能量信息的统一",
+      "order": 6,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "aF_aklwNHVsXGT-zvG7wA",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "KMuVbkp4rYomkPgGEuVBX",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">统一：生命是物质能量信息的统一</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "Nm_k65E6fKV0kIOrKR1Dk",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">升华主题，总结生命系统的三个核心要素，呼应‘智绘’项目的逻辑画卷。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "6V-LgkFUyU3-Whxm7uQV0",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>DNA/RNA 是信息载体</li><li>蛋白质是信息表达产物</li><li>ATP 为信息流动提供能量</li><li>细胞代谢维持生命秩序</li><li>从分子逻辑到生命现象</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_Eqv02Q33",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "升华主题，总结生命系统的三个核心要素，呼应‘智绘’项目的逻辑画卷。。DNA/RNA 是信息载体；蛋白质是信息表达产物；ATP 为信息流动提供能量；细胞代谢维持生命秩序；从分子逻辑到生命现象。三角形关系图，顶点分别为物质、能量、信息，中心为生命。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    },
+    {
+      "id": "CNsWACr_mDOyYxVYrwcu7",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "回顾：智绘项目学习成果展示",
+      "order": 7,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "XvZJ55RSfgT4CB7_2_wxe",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "MiDnowj0a_eIFpFTo6s6h",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">回顾：智绘项目学习成果展示</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "snaah-2dw7qcHDQvRo39z",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">展示学生在项目中的具体成果，肯定学习过程，增强自信心。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "EYOaL2nxoUY9XZQ-1JuiL",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>构建分子模型作品展示</li><li>中心法则流程图绘制</li><li>小组合作探究报告</li><li>科学思维能力的提升</li><li>从知识记忆到逻辑构建</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_TRQ1UUkQ",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "展示学生在项目中的具体成果，肯定学习过程，增强自信心。。构建分子模型作品展示；中心法则流程图绘制；小组合作探究报告；科学思维能力的提升；从知识记忆到逻辑构建。学生作品照片墙，包含模型、手绘图及报告封面。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    },
+    {
+      "id": "Zjl1f9_jJ0t8QlrQ3LBkt",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "思辨：重写生命密码的边界",
+      "order": 8,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "LekwOZ_ggFYf9whcfS-rO",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "u_ZPcSuBPQSEEjB-NQgnd",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">思辨：重写生命密码的边界</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "Bss65qh6Lsagp8VcdyazV",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">提出核心伦理问题，引导学生思考科技发展的双刃剑效应，回归社会责任。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "T20C0fTeDyPGOZ7tEw9YO",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>基因编辑技术的发展现状</li><li>治疗疾病与增强人类的界限</li><li>生态安全与伦理风险</li><li>如果重写生命密码，边界在哪里？</li><li>科学家的社会责任</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_ZsBs5Ul8",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "提出核心伦理问题，引导学生思考科技发展的双刃剑效应，回归社会责任。。基因编辑技术的发展现状；治疗疾病与增强人类的界限；生态安全与伦理风险；如果重写生命密码，边界在哪里？；科学家的社会责任。天平图标，一端是 DNA 双螺旋，另一端是伦理法则符号。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    },
+    {
+      "id": "Jp7urUqSs2g23pxD8GPl7",
+      "stageId": "_c1LNgfgeq",
+      "type": "slide",
+      "title": "结语：科学本质与社会责任",
+      "order": 9,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "5i3AzGRrH6Id9SJ8_tns8",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "egjh53LMfB1PLX_Yq0Ytq",
+              "type": "text",
+              "left": 72,
+              "top": 96,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:34px;font-weight:700;color:#174f37;line-height:1.25\">结语：科学本质与社会责任</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "XJN54I1X1rF0v9omVToHO",
+              "type": "text",
+              "left": 96,
+              "top": 200,
+              "width": 808,
+              "height": 96,
+              "content": "<p style=\"text-align:center;font-size:17px;color:#456154;line-height:1.8\">总结全课，升华至科学本质与社会责任，鼓励学生未来投身科学。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "S-aZlio5VG5t9M7dbbMgj",
+              "type": "text",
+              "left": 92,
+              "top": 320,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>科学本质：求真与创新</li><li>技术应用：向善与节制</li><li>保持对生命的敬畏之心</li><li>投身生物科学事业</li><li>智绘未来，责任在肩</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_sqMiIJaK",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "总结全课，升华至科学本质与社会责任，鼓励学生未来投身科学。。科学本质：求真与创新；技术应用：向善与节制；保持对生命的敬畏之心；投身生物科学事业；智绘未来，责任在肩。背景为晨曦中的实验室或自然生态，象征希望与责任。"
+        }
+      ],
+      "createdAt": 1774861767981,
+      "updatedAt": 1774861767981
+    }
+  ],
+  "createdAt": "2026-03-30T09:09:28.112Z"
+}

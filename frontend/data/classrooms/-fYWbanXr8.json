@@ -1,0 +1,1422 @@
+{
+  "id": "-fYWbanXr8",
+  "stage": {
+    "id": "-fYWbanXr8",
+    "name": "讲解展示DNA复制的半保留复制过程，让学生理解碱基互补配对原则；大概10分钟",
+    "description": "",
+    "createdAt": 1774839795717,
+    "updatedAt": 1774845217845,
+    "language": "zh-CN",
+    "style": "professional",
+    "currentSceneId": "L86OFfCWY3LEhuC_c-eW-",
+    "backendSessionId": "2nkLqyAd9trjlL8ob7tcP",
+    "outputTypes": [
+      "pptx",
+      "docx",
+      "game_html",
+      "animation_html"
+    ],
+    "backendArtifacts": [
+      {
+        "artifact_id": "6d3f89bb12",
+        "type": "pptx",
+        "file_path": "outputs\\2nkLqyAd9trjlL8ob7tcP\\ppt_回顾_DNA的结构基础_20260330_123331.pptx",
+        "metadata": {
+          "slide_count": 11,
+          "title": "回顾：DNA的结构基础"
+        },
+        "generation_time_sec": 0.30040764808654785,
+        "error": null
+      },
+      {
+        "artifact_id": "b436d3eaa4",
+        "type": "docx",
+        "file_path": "outputs\\2nkLqyAd9trjlL8ob7tcP\\docx_回顾_DNA的结构基础_20260330_123330.docx",
+        "metadata": {
+          "title": "回顾：DNA的结构基础"
+        },
+        "generation_time_sec": 0.11903071403503418,
+        "error": null
+      },
+      {
+        "artifact_id": "e33e8fad9a",
+        "type": "game_html",
+        "file_path": "outputs\\2nkLqyAd9trjlL8ob7tcP\\game_matching_DNA碱基配对规则应用_20260330_123337.html",
+        "metadata": {
+          "game_count": 1,
+          "all_paths": [
+            "outputs\\2nkLqyAd9trjlL8ob7tcP\\games\\game_matching_DNA碱基配对规则应用_20260330_123337.html"
+          ],
+          "game_types": [
+            "matching"
+          ]
+        },
+        "generation_time_sec": 7.046422719955444,
+        "error": null
+      },
+      {
+        "artifact_id": "d800eada4b",
+        "type": "animation_html",
+        "file_path": "outputs\\2nkLqyAd9trjlL8ob7tcP\\animation_回顾_DNA的结构基础_20260330_123330.html",
+        "metadata": {
+          "title": "回顾：DNA的结构基础 — 知识动画",
+          "step_count": 4
+        },
+        "generation_time_sec": 0.004792690277099609,
+        "error": null
+      }
+    ],
+    "backendPlan": {
+      "slide_count": 11,
+      "game_count": 1,
+      "intent": "学科: 生物\n年级: \n主题: 回顾：DNA的结构基础\n教学目标: 快速激活前序知识；强调碱基配对是复制的前提，非随机组合。\n授课对象: \n重点: 分子与细胞, 遗传与进化, 中心法则, DNA复制\n难点: \n教学思路: \n页数范围: 1-12",
+      "slides": [
+        {
+          "slide_number": 1,
+          "title": "回顾：DNA的结构基础",
+          "bullet_points": [],
+          "notes": "",
+          "layout": "cover",
+          "visual_suggestion": "",
+          "image_path": null
+        },
+        {
+          "slide_number": 2,
+          "title": "智绘生物：DNA结构基础回顾",
+          "bullet_points": [
+            "本课聚焦DNA双螺旋结构的核心特征",
+            "激活高一《分子与细胞》已有知识",
+            "明确碱基互补配对是DNA复制的结构前提",
+            "衔接中心法则与遗传信息传递逻辑"
+          ],
+          "notes": "开篇点题，强调‘回顾’而非新授；用‘智绘生物’项目名称建立学习情境；提示学生调取DNA化学组成、平面结构、空间模型等前序记忆。",
+          "layout": "content",
+          "visual_suggestion": "封面图：DNA双螺旋3D渲染图+‘智绘生物’项目LOGO，背景为浅蓝渐变细胞纹理",
+          "image_path": null
+        },
+        {
+          "slide_number": 3,
+          "title": "DNA的化学组成：三要素再确认",
+          "bullet_points": [
+            "脱氧核糖（五碳糖）",
+            "磷酸基团（骨架主链）",
+            "含氮碱基（A/T/C/G）",
+            "碱基通过糖苷键连脱氧核糖，磷酸二酯键连成链"
+          ],
+          "notes": "快速唤醒学生对基本组分的记忆；强调‘脱氧’区别于RNA；指出磷酸-糖骨架的反向平行特性为后续复制方向性埋下伏笔。",
+          "layout": "content",
+          "visual_suggestion": "动态标注图：DNA单链片段，逐项高亮三类组分及对应化学键",
+          "image_path": null
+        },
+        {
+          "slide_number": 4,
+          "title": "双螺旋结构的四大特征",
+          "bullet_points": [
+            "反向平行双链",
+            "外侧：磷酸-脱氧核糖骨架",
+            "内侧：碱基朝向中心",
+            "碱基严格互补配对（A=T, C≡G）"
+          ],
+          "notes": "对照沃森-克里克模型原图讲解；强调‘反向平行’决定复制时引物合成方向；‘内侧碱基’凸显配对空间约束——非随机组合的关键证据。",
+          "layout": "content",
+          "visual_suggestion": "经典双螺旋示意图（标注4个特征位置），配旋转动画展示空间排布",
+          "image_path": null
+        },
+        {
+          "slide_number": 5,
+          "title": "碱基配对：不是巧合，而是必然",
+          "bullet_points": [
+            "氢键数量决定特异性（A=T含2键，C≡G含3键）",
+            "空间尺寸匹配（嘌呤+嘧啶=恒定宽度）",
+            "保证双链直径一致（2nm）",
+            "为半保留复制提供模板精确性基础"
+          ],
+          "notes": "破除‘碱基可任意配对’迷思；用氢键数和分子大小解释‘为什么只能A-T、C-G’；直接关联‘复制前提’教学目标。",
+          "layout": "content",
+          "visual_suggestion": "对比动图：正确配对（稳定氢键）vs 错误配对（空间冲突/氢键缺失）",
+          "image_path": null
+        },
+        {
+          "slide_number": 6,
+          "title": "从结构到功能：中心法则的起点",
+          "bullet_points": [
+            "DNA双链中仅一条为模板链（转录）",
+            "碱基序列→mRNA密码子→氨基酸序列",
+            "DNA结构稳定性保障遗传信息忠实传递",
+            "复制、转录均依赖碱基互补配对"
+          ],
+          "notes": "建立结构-功能桥梁；指出‘模板链’概念源于双链不对称性；强调配对原则贯穿中心法则各环节，非仅复制专属。",
+          "layout": "content",
+          "visual_suggestion": "中心法则流程图（DNA→RNA→蛋白质），在DNA复制与转录箭头旁标注‘碱基互补配对’图标",
+          "image_path": null
+        },
+        {
+          "slide_number": 7,
+          "title": "DNA复制：结构如何支撑功能？",
+          "bullet_points": [
+            "解旋→模板暴露→游离脱氧核苷酸按配对原则就位",
+            "DNA聚合酶催化磷酸二酯键形成",
+            "半保留复制确保子代DNA结构一致性",
+            "配对错误率≈10⁻⁹，依赖配对特异性+校对修复"
+          ],
+          "notes": "紧扣‘碱基配对是复制前提’目标；说明‘就位’即A-T、C-G的即时识别；点出高保真性根源在于结构层面的化学约束。",
+          "layout": "content",
+          "visual_suggestion": "简化复制叉动画：解旋酶→单链模板→dNTP依配对原则结合→聚合酶延伸",
+          "image_path": null
+        },
+        {
+          "slide_number": 8,
+          "title": "常见误区辨析",
+          "bullet_points": [
+            "× 碱基配对是‘随机但偏好’ → ✓ 是严格化学约束",
+            "× DNA两条链都作模板 → ✓ 复制时每条链均为模板，但转录仅用一条",
+            "× A与C也能形成氢键 → ✓ 空间位阻与键能不支持稳定配对",
+            "× 配对只用于复制 → ✓ 同样驱动转录、逆转录、PCR"
+          ],
+          "notes": "直击学生高频错误；用‘×/✓’强化认知冲突；最后一项拓展至技术应用，呼应‘智绘生物’项目实践性。",
+          "layout": "content",
+          "visual_suggestion": "左右对比表格：左列‘错误观念’红叉，右列‘科学事实’绿勾",
+          "image_path": null
+        },
+        {
+          "slide_number": 9,
+          "title": "知识整合：分子与细胞 ↔ 遗传与进化",
+          "bullet_points": [
+            "细胞核中DNA结构稳定 → 细胞分裂遗传物质均等分配",
+            "减数分裂中同源染色体联会依赖DNA序列同源性（配对基础）",
+            "突变源于配对错误或损伤 → 进化原始材料",
+            "自然选择作用于表型，但源头在DNA结构变异"
+          ],
+          "notes": "打通模块壁垒；强调‘结构稳定性’与‘可变性’的辩证统一；将DNA配对提升至生命系统层级理解。",
+          "layout": "content",
+          "visual_suggestion": "双模块交汇图：左侧《分子与细胞》图标（细胞核/DNA），右侧《遗传与进化》图标（染色体/树状进化），中间双向箭头标注‘碱基配对’",
+          "image_path": null
+        },
+        {
+          "slide_number": 10,
+          "title": "互动挑战：碱基配对实验室",
+          "bullet_points": [
+            "限时完成DNA→RNA转录配对",
+            "识别复制中错误配对位点",
+            "推断突变后密码子变化",
+            "小组协作绘制配对能量示意图"
+          ],
+          "notes": "过渡到游戏环节；任务设计覆盖识记、应用、分析多阶思维；强调‘实验室’情境增强项目沉浸感。",
+          "layout": "content",
+          "visual_suggestion": "卡通实验室场景：烧杯标签写‘A-T Pairing’，显微镜显示碱基结构",
+          "image_path": null
+        },
+        {
+          "slide_number": 11,
+          "title": "课堂小结：结构即语言，配对即语法",
+          "bullet_points": [
+            "DNA双螺旋是遗传信息的物理载体",
+            "碱基互补配对是生命信息复制、传递、表达的通用语法规则",
+            "该规则由氢键与空间结构双重保障，非随机",
+            "为理解中心法则、DNA复制、基因工程奠定基石"
+          ],
+          "notes": "用‘语言/语法’隐喻升华；回归教学目标‘强调配对是前提，非随机’；语言凝练，便于学生笔记记录。",
+          "layout": "content",
+          "visual_suggestion": "DNA双螺旋化作一本打开的书，书页文字由A/T/C/G字母构成，标题‘生命的语法’",
+          "image_path": null
+        }
+      ],
+      "lesson_plan_sections": [
+        {
+          "section": "情境导入与目标锚定",
+          "duration": "3分钟",
+          "content": "展示DNA艺术化图像，提问‘为何双螺旋能承载遗传密码？’，明确本课核心目标：重审结构基础，聚焦配对必然性。",
+          "method": "提问启发+目标可视化"
+        },
+        {
+          "section": "结构要素快闪复习",
+          "duration": "5分钟",
+          "content": "通过填空式板书+学生口答，快速回顾化学组分、双螺旋四特征，教师即时纠偏。",
+          "method": "交互问答+结构化板书"
+        },
+        {
+          "section": "配对机制深度解析",
+          "duration": "8分钟",
+          "content": "结合氢键模型、空间位阻动画，阐释A-T/C-G专一性；对比错误配对后果，论证‘非随机’的化学本质。",
+          "method": "多媒体演示+类比讲解（如‘锁钥模型’）"
+        },
+        {
+          "section": "功能联结与跨模块整合",
+          "duration": "7分钟",
+          "content": "以中心法则流程图为轴，标注各环节配对作用；延伸至减数分裂联会、突变与进化，构建知识网络。",
+          "method": "概念图建构+问题链引导"
+        },
+        {
+          "section": "互动游戏与即时反馈",
+          "duration": "10分钟",
+          "content": "开展‘碱基配对实验室’游戏（见games字段），教师巡视指导，利用答题器实时统计正确率并解析典型错误。",
+          "method": "小组合作+技术赋能反馈"
+        },
+        {
+          "section": "总结升华与迁移展望",
+          "duration": "2分钟",
+          "content": "提炼‘结构-配对-功能’逻辑链；预告下节课‘DNA复制的酶促机制’，强调本课是理解动态过程的静态基石。",
+          "method": "教师精讲+承上启下"
+        }
+      ],
+      "game_specs": [
+        {
+          "type": "matching",
+          "topic": "DNA碱基配对规则应用",
+          "questions": [
+            {
+              "id": "q_1",
+              "question": "下列哪组碱基在DNA双链中能稳定配对？",
+              "options": [
+                "A. A与C",
+                "B. T与G",
+                "C. C与G",
+                "D. U与A"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "q_2",
+              "question": "DNA复制时，若模板链序列为5'-ATGC-3'，新链对应序列应为？",
+              "options": [
+                "A. 5'-TACG-3'",
+                "B. 5'-CGTA-3'",
+                "C. 5'-ATGC-3'",
+                "D. 5'-GCAT-3'"
+              ],
+              "answer": "D"
+            }
+          ]
+        }
+      ],
+      "animation_steps": [
+        {
+          "icon": "🧬",
+          "title": "解旋展链",
+          "description": "DNA双链在解旋酶作用下局部解开，暴露出碱基序列，为配对提供单链模板。"
+        },
+        {
+          "icon": "🔍",
+          "title": "碱基识别",
+          "description": "游离脱氧核苷酸依据氢键数量与空间形状，特异性识别并靠近互补碱基（如A寻找T）。"
+        },
+        {
+          "icon": "🔗",
+          "title": "氢键形成",
+          "description": "A与T间形成2个氢键，C与G间形成3个氢键，实现稳定、可逆的特异性结合。"
+        },
+        {
+          "icon": "⚡",
+          "title": "共价连接",
+          "description": "DNA聚合酶催化磷酸二酯键形成，将正确配对的核苷酸共价连接到新生链上。"
+        }
+      ]
+    },
+    "backendErrors": [],
+    "backendMissingArtifacts": {
+      "required": [],
+      "optional": []
+    },
+    "whiteboard": [
+      {
+        "id": "whiteboard_qmqiweF0bf",
+        "viewportSize": 1000,
+        "viewportRatio": 1.7777777777777777,
+        "elements": [],
+        "background": {
+          "type": "solid",
+          "color": "#ffffff"
+        },
+        "animations": []
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "4uRLiQNRU5qEVu4b4W6JT",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "回顾：DNA的结构基础",
+      "order": 0,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "FqetbmbJhAsQq7f4hXN0p",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "Vy7-lkZv-WA2TrWZ2X5yH",
+              "type": "text",
+              "left": 72,
+              "top": 96,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:34px;font-weight:700;color:#174f37;line-height:1.25\">回顾：DNA的结构基础</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_UaToSAca",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "回顾：DNA的结构基础"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "EXQrFZIFdm1zGgA62G_vm",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "智绘生物：DNA结构基础回顾",
+      "order": 1,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "seXoWBy9z3jLwkI9zsTMN",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "MwuPJixcAOFmdsAwia_PM",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">智绘生物：DNA结构基础回顾</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "wpx5xmVtiyXyYCgZlcB48",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">开篇点题，强调‘回顾’而非新授；用‘智绘生物’项目名称建立学习情境；提示学生调取DNA化学组成、平面结构、空间模型等前序记忆。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "RE_5k0jXlNvR4hjBIllaw",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>本课聚焦DNA双螺旋结构的核心特征</li><li>激活高一《分子与细胞》已有知识</li><li>明确碱基互补配对是DNA复制的结构前提</li><li>衔接中心法则与遗传信息传递逻辑</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "FaePqY8hA-kn6ghyZ_1z-",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/dna_replication_notes.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_LVZz5N85",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "开篇点题，强调‘回顾’而非新授；用‘智绘生物’项目名称建立学习情境；提示学生调取DNA化学组成、平面结构、空间模型等前序记忆。。本课聚焦DNA双螺旋结构的核心特征；激活高一《分子与细胞》已有知识；明确碱基互补配对是DNA复制的结构前提；衔接中心法则与遗传信息传递逻辑。封面图：DNA双螺旋3D渲染图+‘智绘生物’项目LOGO，背景为浅蓝渐变细胞纹理"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "M_kzxPahRpmf7wIj743Sm",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "DNA的化学组成：三要素再确认",
+      "order": 2,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "hBYGnSaXtmcBvu61chXHP",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "6wDvh7GzG5JAxazj8adfR",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">DNA的化学组成：三要素再确认</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "kNKDZAQdga63GLjxeqTB6",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">快速唤醒学生对基本组分的记忆；强调‘脱氧’区别于RNA；指出磷酸-糖骨架的反向平行特性为后续复制方向性埋下伏笔。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "7VW8NPuiT_0TUiFVZMQ4e",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>脱氧核糖（五碳糖）</li><li>磷酸基团（骨架主链）</li><li>含氮碱基（A/T/C/G）</li><li>碱基通过糖苷键连脱氧核糖，磷酸二酯键连成链</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_VFVZb8iT",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "快速唤醒学生对基本组分的记忆；强调‘脱氧’区别于RNA；指出磷酸-糖骨架的反向平行特性为后续复制方向性埋下伏笔。。脱氧核糖（五碳糖）；磷酸基团（骨架主链）；含氮碱基（A/T/C/G）；碱基通过糖苷键连脱氧核糖，磷酸二酯键连成链。动态标注图：DNA单链片段，逐项高亮三类组分及对应化学键"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "2EsOi3C8wWUSKc1sj8JLw",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "双螺旋结构的四大特征",
+      "order": 3,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "7c9uF92GIC2yCTmlNEk1b",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "yWihr7KDJDsjTZJLELBc3",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">双螺旋结构的四大特征</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "3YUmGEGvzxsAwi-WmOIMO",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">对照沃森-克里克模型原图讲解；强调‘反向平行’决定复制时引物合成方向；‘内侧碱基’凸显配对空间约束——非随机组合的关键证据。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "yQFGZ4u-7tPLWlMPy-Djc",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>反向平行双链</li><li>外侧：磷酸-脱氧核糖骨架</li><li>内侧：碱基朝向中心</li><li>碱基严格互补配对（A=T, C≡G）</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_xySd-4Ua",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "对照沃森-克里克模型原图讲解；强调‘反向平行’决定复制时引物合成方向；‘内侧碱基’凸显配对空间约束——非随机组合的关键证据。。反向平行双链；外侧：磷酸-脱氧核糖骨架；内侧：碱基朝向中心；碱基严格互补配对（A=T, C≡G）。经典双螺旋示意图（标注4个特征位置），配旋转动画展示空间排布"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "FafMtwnSFSZxdnRIsLALH",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "碱基配对：不是巧合，而是必然",
+      "order": 4,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "y4o2RnAPrZEMTeZCsoGHM",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "RL-wGWn9y4VKQrVQ-b5Uv",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">碱基配对：不是巧合，而是必然</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "Zbw4FexXxAQCwwkR7ZqBb",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">破除‘碱基可任意配对’迷思；用氢键数和分子大小解释‘为什么只能A-T、C-G’；直接关联‘复制前提’教学目标。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "pdxQHcpdfDkpJpKhgC_g9",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>氢键数量决定特异性（A=T含2键，C≡G含3键）</li><li>空间尺寸匹配（嘌呤+嘧啶=恒定宽度）</li><li>保证双链直径一致（2nm）</li><li>为半保留复制提供模板精确性基础</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "i4PhfxZofEgfQTXjw11yQ",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/dna_replication_diagram.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_zsicKlPU",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "破除‘碱基可任意配对’迷思；用氢键数和分子大小解释‘为什么只能A-T、C-G’；直接关联‘复制前提’教学目标。。氢键数量决定特异性（A=T含2键，C≡G含3键）；空间尺寸匹配（嘌呤+嘧啶=恒定宽度）；保证双链直径一致（2nm）；为半保留复制提供模板精确性基础。对比动图：正确配对（稳定氢键）vs 错误配对（空间冲突/氢键缺失）"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "-yI01_3WLAGAg6vhc5usV",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "从结构到功能：中心法则的起点",
+      "order": 5,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "LKCTjwfoZBYsayIpXtDLI",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "_sKxQgYSMuwYyTSF0GVrn",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">从结构到功能：中心法则的起点</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "tHoZW2vT7Wu17okTRVLBu",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">建立结构-功能桥梁；指出‘模板链’概念源于双链不对称性；强调配对原则贯穿中心法则各环节，非仅复制专属。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "Wu2vbQiUWB4aQY6HIi-St",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>DNA双链中仅一条为模板链（转录）</li><li>碱基序列→mRNA密码子→氨基酸序列</li><li>DNA结构稳定性保障遗传信息忠实传递</li><li>复制、转录均依赖碱基互补配对</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "p-nLH8Kom2IRePwC7AbDu",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/transcription_textbook.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_1kOS9G2F",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "建立结构-功能桥梁；指出‘模板链’概念源于双链不对称性；强调配对原则贯穿中心法则各环节，非仅复制专属。。DNA双链中仅一条为模板链（转录）；碱基序列→mRNA密码子→氨基酸序列；DNA结构稳定性保障遗传信息忠实传递；复制、转录均依赖碱基互补配对。中心法则流程图（DNA→RNA→蛋白质），在DNA复制与转录箭头旁标注‘碱基互补配对’图标"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "ab-7PRYOszhXZVh51vqvK",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "DNA复制：结构如何支撑功能？",
+      "order": 6,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "gbQ9WH0jNGHtvkQ01EMm8",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "T5K8e8VOR8Qf1uJ2iDhR3",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">DNA复制：结构如何支撑功能？</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "N1U_OFh_xxYM2dtJihF0l",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">紧扣‘碱基配对是复制前提’目标；说明‘就位’即A-T、C-G的即时识别；点出高保真性根源在于结构层面的化学约束。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "l5ntjTNZX7--QPiXWk0bI",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>解旋→模板暴露→游离脱氧核苷酸按配对原则就位</li><li>DNA聚合酶催化磷酸二酯键形成</li><li>半保留复制确保子代DNA结构一致性</li><li>配对错误率≈10⁻⁹，依赖配对特异性+校对修复</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "XRerwzegJS2QqTU01xBvO",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/dna_replication_process.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_kS-9cx5d",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "紧扣‘碱基配对是复制前提’目标；说明‘就位’即A-T、C-G的即时识别；点出高保真性根源在于结构层面的化学约束。。解旋→模板暴露→游离脱氧核苷酸按配对原则就位；DNA聚合酶催化磷酸二酯键形成；半保留复制确保子代DNA结构一致性；配对错误率≈10⁻⁹，依赖配对特异性+校对修复。简化复制叉动画：解旋酶→单链模板→dNTP依配对原则结合→聚合酶延伸"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "ZlInh8ubV7MOe2qfQJZ8w",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "常见误区辨析",
+      "order": 7,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "5qXUhFga8aNVT0tplkkk1",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "_a6e-rwvF0cWIOsqemKaL",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">常见误区辨析</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "5pIatXWoQm3TriOK8URns",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">直击学生高频错误；用‘×/✓’强化认知冲突；最后一项拓展至技术应用，呼应‘智绘生物’项目实践性。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "u5OOPu3FqJBIor7gKCWy0",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>× 碱基配对是‘随机但偏好’ → ✓ 是严格化学约束</li><li>× DNA两条链都作模板 → ✓ 复制时每条链均为模板，但转录仅用一条</li><li>× A与C也能形成氢键 → ✓ 空间位阻与键能不支持稳定配对</li><li>× 配对只用于复制 → ✓ 同样驱动转录、逆转录、PCR</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "68CKheHqTAqI7OChb5nxf",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/transcription_detail.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_mXqrQ76l",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "直击学生高频错误；用‘×/✓’强化认知冲突；最后一项拓展至技术应用，呼应‘智绘生物’项目实践性。。× 碱基配对是‘随机但偏好’ → ✓ 是严格化学约束；× DNA两条链都作模板 → ✓ 复制时每条链均为模板，但转录仅用一条；× A与C也能形成氢键 → ✓ 空间位阻与键能不支持稳定配对；× 配对只用于复制 → ✓ 同样驱动转录、逆转录、PCR。左右对比表格：左列‘错误观念’红叉，右列‘科学事实’绿勾"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "ktwUNrBci2EclYRrDexiR",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "知识整合：分子与细胞 ↔ 遗传与进化",
+      "order": 8,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "uLWJTyg69nC2jGNU2Q8eK",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "vEA_M9qr_ujbhEmGu-QRx",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">知识整合：分子与细胞 ↔ 遗传与进化</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "-pjJcKf9LF1xfdQBuC3FL",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">打通模块壁垒；强调‘结构稳定性’与‘可变性’的辩证统一；将DNA配对提升至生命系统层级理解。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "vcOBWL651pwsf4gknA3UQ",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>细胞核中DNA结构稳定 → 细胞分裂遗传物质均等分配</li><li>减数分裂中同源染色体联会依赖DNA序列同源性（配对基础）</li><li>突变源于配对错误或损伤 → 进化原始材料</li><li>自然选择作用于表型，但源头在DNA结构变异</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "wosJQpJ2A_bTf8hjO4nUD",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/genetics_evolution_overview.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_PwR1c3Gg",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "打通模块壁垒；强调‘结构稳定性’与‘可变性’的辩证统一；将DNA配对提升至生命系统层级理解。。细胞核中DNA结构稳定 → 细胞分裂遗传物质均等分配；减数分裂中同源染色体联会依赖DNA序列同源性（配对基础）；突变源于配对错误或损伤 → 进化原始材料；自然选择作用于表型，但源头在DNA结构变异。双模块交汇图：左侧《分子与细胞》图标（细胞核/DNA），右侧《遗传与进化》图标（染色体/树状进化），中间双向箭头标注‘碱基配对’"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "0cbbYhPysBP9f5S-AkkSn",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "互动挑战：碱基配对实验室",
+      "order": 9,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "YrncpQrissGpPmv2uScEC",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "4aMnv2LB3kYSuz-VVYNN5",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">互动挑战：碱基配对实验室</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "KrUgbHkBhxafidZDOfQU0",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">过渡到游戏环节；任务设计覆盖识记、应用、分析多阶思维；强调‘实验室’情境增强项目沉浸感。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "SgJuHfLTZZCM2MGBRGqoo",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>限时完成DNA→RNA转录配对</li><li>识别复制中错误配对位点</li><li>推断突变后密码子变化</li><li>小组协作绘制配对能量示意图</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "55bgFRcyYvMgdf4oBDEa-",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/gene_mutation_mindmap.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_8DANqad-",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "过渡到游戏环节；任务设计覆盖识记、应用、分析多阶思维；强调‘实验室’情境增强项目沉浸感。。限时完成DNA→RNA转录配对；识别复制中错误配对位点；推断突变后密码子变化；小组协作绘制配对能量示意图。卡通实验室场景：烧杯标签写‘A-T Pairing’，显微镜显示碱基结构"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "decWRS0ejs1f8lo9lzKpc",
+      "stageId": "-fYWbanXr8",
+      "type": "slide",
+      "title": "课堂小结：结构即语言，配对即语法",
+      "order": 10,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "l-zlcQF2cLANdbePFKynm",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "APqptO6i2losS0hc1njSF",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">课堂小结：结构即语言，配对即语法</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "rZrJhgHIRA9VIWkmuEOBp",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">用‘语言/语法’隐喻升华；回归教学目标‘强调配对是前提，非随机’；语言凝练，便于学生笔记记录。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "frgK17W9pJHTg4_CqflNm",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>DNA双螺旋是遗传信息的物理载体</li><li>碱基互补配对是生命信息复制、传递、表达的通用语法规则</li><li>该规则由氢键与空间结构双重保障，非随机</li><li>为理解中心法则、DNA复制、基因工程奠定基石</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_-YGIfVpP",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "用‘语言/语法’隐喻升华；回归教学目标‘强调配对是前提，非随机’；语言凝练，便于学生笔记记录。。DNA双螺旋是遗传信息的物理载体；碱基互补配对是生命信息复制、传递、表达的通用语法规则；该规则由氢键与空间结构双重保障，非随机；为理解中心法则、DNA复制、基因工程奠定基石。DNA双螺旋化作一本打开的书，书页文字由A/T/C/G字母构成，标题‘生命的语法’"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "YqmwxF8dGoySDjViNb7AY",
+      "stageId": "-fYWbanXr8",
+      "type": "interactive",
+      "title": "互动游戏",
+      "order": 11,
+      "content": {
+        "type": "interactive",
+        "url": "/api/artifacts/preview?session_id=2nkLqyAd9trjlL8ob7tcP&artifact_type=game_html"
+      },
+      "actions": [
+        {
+          "id": "action_dUfcdhML",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "接下来进入互动游戏，通过练习巩固核心知识点。"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    },
+    {
+      "id": "5143J5bffkMQc-XbKV-aw",
+      "stageId": "-fYWbanXr8",
+      "type": "interactive",
+      "title": "概念动画",
+      "order": 12,
+      "content": {
+        "type": "interactive",
+        "url": "/api/artifacts/preview?session_id=2nkLqyAd9trjlL8ob7tcP&artifact_type=animation_html"
+      },
+      "actions": [
+        {
+          "id": "action_d_MkaPSx",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "接下来通过概念动画梳理过程与机制，加深理解。"
+        }
+      ],
+      "createdAt": 1774845217845,
+      "updatedAt": 1774845217845
+    }
+  ],
+  "createdAt": "2026-03-30T04:33:38.028Z"
+}

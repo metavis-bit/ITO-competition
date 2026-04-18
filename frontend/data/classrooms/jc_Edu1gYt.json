@@ -1,0 +1,4207 @@
+{
+  "id": "jc_Edu1gYt",
+  "stage": {
+    "id": "jc_Edu1gYt",
+    "name": "授课对象: 高一",
+    "description": "",
+    "createdAt": 1774849278375,
+    "updatedAt": 1774860423985,
+    "language": "zh-CN",
+    "style": "professional",
+    "currentSceneId": "Q03zr8ABAberY_zOu7nvk",
+    "backendSessionId": "n8RZZwck2uvlJPpFGcbim",
+    "backendVersionId": "ver_e5a63d01",
+    "outputTypes": [
+      "pptx",
+      "docx",
+      "game_html",
+      "animation_html"
+    ],
+    "backendArtifacts": [
+      {
+        "artifact_id": "bcb5e71d0c",
+        "type": "pptx",
+        "file_path": "outputs\\n8RZZwck2uvlJPpFGcbim\\versions\\ver_e5a63d01\\ppt\\ppt_智绘生物_中心法则与基因表达_20260330_161202.pptx",
+        "metadata": {
+          "version_id": "ver_e5a63d01",
+          "version_note": "Generation v1"
+        },
+        "generation_time_sec": 0,
+        "error": null
+      },
+      {
+        "artifact_id": "4816c026f2",
+        "type": "docx",
+        "file_path": "outputs\\n8RZZwck2uvlJPpFGcbim\\versions\\ver_e5a63d01\\docx\\docx_智绘生物_中心法则与基因表达_20260330_161202.docx",
+        "metadata": {
+          "version_id": "ver_e5a63d01",
+          "version_note": "Generation v1"
+        },
+        "generation_time_sec": 0,
+        "error": null
+      }
+    ],
+    "backendPlan": {
+      "slide_count": 10,
+      "game_count": 1,
+      "intent": "学科: 生物\n年级: 高一\n主题: 智绘生物：中心法则与基因表达\n教学目标: 以‘智绘生物’项目贯穿全课，强调生物学的逻辑美与可视化表达；封面页建立认知锚点。\n授课对象: 高一\n重点: 分子与细胞, 遗传与进化, 中心法则, DNA复制, 授课对象: 高一\n难点: \n教学思路: \n页数范围: 1-10",
+      "slides": [
+        {
+          "slide_number": 1,
+          "title": "智绘生物：中心法则与基因表达",
+          "bullet_points": [
+            "学科：高中生物（高一）",
+            "主题：遗传信息的流动与可视化",
+            "认知锚点：生命是物质、能量和信息的统一体",
+            "项目：智绘生物逻辑图谱",
+            "教材：必修 2 遗传与进化"
+          ],
+          "notes": "封面页建立认知锚点，强调本项目旨在通过可视化手段理解抽象的分子机制。",
+          "layout": "cover",
+          "visual_suggestion": "背景为 DNA 双螺旋与蛋白质结构交织的艺术化图案，突出'智绘'主题。",
+          "image_path": null
+        },
+        {
+          "slide_number": 2,
+          "title": "项目导入：为何要'智绘'生物？",
+          "bullet_points": [
+            "微观过程不可见，需逻辑可视化",
+            "从信息传递角度理解生命活动",
+            "基因指导蛋白质合成的全过程",
+            "培养科学思维与建模能力",
+            "连接必修 1 分子基础与必修 2 遗传"
+          ],
+          "notes": "引导学生理解将抽象过程转化为可视图谱的重要性，呼应'智绘生物'项目目标。",
+          "layout": "content",
+          "visual_suggestion": "左侧展示显微镜下的细胞，右侧展示抽象的信息流动流程图。",
+          "image_path": null
+        },
+        {
+          "slide_number": 3,
+          "title": "核心概念：中心法则的提出",
+          "bullet_points": [
+            "1957 年克里克（Crick）提出",
+            "预见遗传信息传递的一般规律",
+            "DNA 是信息的载体",
+            "蛋白质是信息的表达产物",
+            "构建生命信息的逻辑框架"
+          ],
+          "notes": "介绍历史背景，强调中心法则是生物学的核心逻辑，是'智绘'的骨架。",
+          "layout": "content",
+          "visual_suggestion": "克里克肖像与 1957 年手稿示意图，突出'Central Dogma'字样。",
+          "image_path": null
+        },
+        {
+          "slide_number": 4,
+          "title": "信息流动一：DNA 复制",
+          "bullet_points": [
+            "流向：DNA → DNA",
+            "场所：主要在细胞核",
+            "意义：遗传信息的连续性",
+            "条件：模板、原料、能量、酶",
+            "智绘重点：半保留复制模型"
+          ],
+          "notes": "简述复制过程，强调这是信息传递的起点，确保遗传信息代代相传。",
+          "layout": "content",
+          "visual_suggestion": "DNA 双螺旋解旋并合成两条新链的动态示意图。",
+          "image_path": null
+        },
+        {
+          "slide_number": 5,
+          "title": "信息流动二：转录与翻译",
+          "bullet_points": [
+            "转录：DNA → RNA（细胞核）",
+            "翻译：RNA → 蛋白质（细胞质）",
+            "mRNA 是遗传信息的信使",
+            "核糖体是蛋白质合成车间",
+            "智绘重点：空间与时间的配合"
+          ],
+          "notes": "讲解基因表达的两个关键步骤，强调空间上的核质分工。",
+          "layout": "content",
+          "visual_suggestion": "细胞核内转录出 mRNA，mRNA 穿过核孔进入细胞质结合核糖体。",
+          "image_path": null
+        },
+        {
+          "slide_number": 6,
+          "title": "高效合成：多聚核糖体",
+          "bullet_points": [
+            "一个 mRNA 结合多个核糖体",
+            "同时合成多条肽链",
+            "少量 mRNA 迅速合成大量蛋白质",
+            "体现翻译的快速高效性",
+            "智绘重点：并行处理逻辑"
+          ],
+          "notes": "结合参考资料，解释为何细胞能高效合成蛋白质，这是逻辑美的体现。",
+          "layout": "content",
+          "visual_suggestion": "一条 mRNA 链上串联多个核糖体，每条核糖体下挂着不同长度的肽链。",
+          "image_path": null
+        },
+        {
+          "slide_number": 7,
+          "title": "法则补充：RNA 病毒的特例",
+          "bullet_points": [
+            "少数生物遗传信息流向特殊",
+            "RNA → RNA（RNA 复制）",
+            "RNA → DNA（逆转录）",
+            "中心法则的完善与发展",
+            "智绘重点：例外情况的标注"
+          ],
+          "notes": "说明中心法则不是绝对的，科学是不断发展的，补充 RNA 病毒的特殊路径。",
+          "layout": "content",
+          "visual_suggestion": "在中心法则主图旁分支出 RNA 复制和逆转录的虚线箭头。",
+          "image_path": null
+        },
+        {
+          "slide_number": 8,
+          "title": "生命本质：物质、能量与信息",
+          "bullet_points": [
+            "DNA、RNA 是信息载体",
+            "蛋白质是信息表达产物",
+            "ATP 为信息流动提供能量",
+            "生命是三者的统一体",
+            "智绘重点：能量流的标注"
+          ],
+          "notes": "升华主题，从信息论角度理解生命，强调 ATP 在过程中的供能作用。",
+          "layout": "content",
+          "visual_suggestion": "三角形关系图，三个顶点分别是物质、能量、信息，中心是'生命'。",
+          "image_path": null
+        },
+        {
+          "slide_number": 9,
+          "title": "互动游戏：信息流路径填充",
+          "bullet_points": [
+            "游戏规则：补全中心法则路径",
+            "识别正常细胞与病毒差异",
+            "判断能量供应环节",
+            "小组竞赛：速度与准确率",
+            "巩固遗传信息流动逻辑"
+          ],
+          "notes": "通过游戏检测学生对信息流向的掌握情况，活跃课堂气氛。",
+          "layout": "content",
+          "visual_suggestion": "屏幕显示未完成的流程图，学生点击选项框填入正确过程。",
+          "image_path": null
+        },
+        {
+          "slide_number": 10,
+          "title": "课堂总结与课后任务",
+          "bullet_points": [
+            "回顾中心法则核心路径",
+            "理解翻译的高效性机制",
+            "感悟生命的逻辑美",
+            "任务：绘制'智绘生物'图谱",
+            "下节预告：基因与性状关系"
+          ],
+          "notes": "总结全课，布置可视化作业，将课堂知识转化为个人作品。",
+          "layout": "summary",
+          "visual_suggestion": "展示优秀的学生手绘中心法则作品示例，鼓励创作。",
+          "image_path": null
+        }
+      ],
+      "lesson_plan_sections": [
+        {
+          "section": "情境导入与锚点建立",
+          "duration": "5 分钟",
+          "content": "介绍'智绘生物'项目，展示封面，建立生命是物质能量信息统一体的认知。",
+          "method": "讲授法、展示法"
+        },
+        {
+          "section": "中心法则核心探究",
+          "duration": "15 分钟",
+          "content": "讲解 DNA 复制、转录、翻译过程，结合克里克理论与多聚核糖体机制。",
+          "method": "探究式学习、图示分析"
+        },
+        {
+          "section": "法则补充与本质升华",
+          "duration": "10 分钟",
+          "content": "介绍 RNA 病毒特例，分析 ATP 供能，总结生命本质。",
+          "method": "案例分析、讨论法"
+        },
+        {
+          "section": "互动游戏与反馈",
+          "duration": "5 分钟",
+          "content": "进行信息流路径填充游戏，检测学习效果。",
+          "method": "游戏化教学、即时反馈"
+        },
+        {
+          "section": "总结与作业布置",
+          "duration": "5 分钟",
+          "content": "梳理知识脉络，布置绘制逻辑图谱作业。",
+          "method": "总结法、任务驱动"
+        }
+      ],
+      "game_specs": [
+        {
+          "type": "flow_fill",
+          "topic": "中心法则信息流路径",
+          "questions": [
+            {
+              "id": "q_1",
+              "question": "遗传信息从 DNA 流向蛋白质的中间载体是？",
+              "options": [
+                "tRNA",
+                "mRNA",
+                "rRNA",
+                "ATP"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "q_2",
+              "question": "少数 RNA 病毒遗传信息可从 RNA 流向？",
+              "options": [
+                "DNA",
+                "脂质",
+                "多糖",
+                "无机盐"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "q_3",
+              "question": "为信息流动提供能量的物质主要是？",
+              "options": [
+                "葡萄糖",
+                "脂肪",
+                "ATP",
+                "蛋白质"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "q_4",
+              "question": "一个 mRNA 分子上结合多个核糖体的意义是？",
+              "options": [
+                "减少错误",
+                "迅速合成大量蛋白质",
+                "节省 DNA",
+                "改变序列"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ],
+      "animation_steps": [
+        {
+          "icon": "🧬",
+          "title": "DNA 双链解旋",
+          "description": "在解旋酶作用下，DNA 双螺旋结构打开，暴露碱基模板。"
+        },
+        {
+          "icon": "📝",
+          "title": "转录合成 RNA",
+          "description": "以 DNA 一条链为模板，游离核糖核苷酸聚合形成 mRNA。"
+        },
+        {
+          "icon": "🚚",
+          "title": "mRNA 核孔转运",
+          "description": "合成后的 mRNA 通过核孔进入细胞质，寻找核糖体。"
+        },
+        {
+          "icon": "🔗",
+          "title": "核糖体结合",
+          "description": "mRNA 与核糖体结合，tRNA 携带氨基酸进入位点。"
+        },
+        {
+          "icon": "🧱",
+          "title": "肽链延伸合成",
+          "description": "氨基酸脱水缩合形成肽链，核糖体沿 mRNA 移动直至终止。"
+        }
+      ]
+    },
+    "backendErrors": [],
+    "backendMissingArtifacts": {
+      "required": [],
+      "optional": []
+    },
+    "whiteboard": [
+      {
+        "id": "whiteboard_n_nKPO1kpm",
+        "viewportSize": 1000,
+        "viewportRatio": 1.7777777777777777,
+        "elements": [
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_1",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 73.84169884169884,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              2.8957418493322393
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_2",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 76.73744069103108,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              4.343629343629345
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_3",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 81.08107003466043,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              7.239404332223543
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_4",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 88.32047436688397,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              8.68725868725869
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_5",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 97.00773305414266,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              10.135113042293824
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_6",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 107.14284609643649,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              13.030888030888036
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_7",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 120.17373412732452,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              14.478775525185128
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_8",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 134.65250965250965,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              17.37451737451738
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_9",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 152.02702702702703,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              23.8899613899614
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_10",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 175.91698841698843,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              23.88996138996137
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_11",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 199.8069498069498,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              26.78570323929364
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_12",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 226.59265304624344,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              26.785736378555583
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_13",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 253.37838942479902,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              23.16600107318186
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_14",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 276.5443904979809,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              18.09847769129692
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_15",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 294.6428681892778,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              13.030888030888036
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_16",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 307.67375622016584,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              10.135113042293824
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_17",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 317.80886926245967,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              5.791549977188424
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_18",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 323.6004192396481,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              4.343629343629345
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_19",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 327.94404858327744,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              2.1718146718146727
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcmd6-sfrkoq_20",
+            "type": "line",
+            "left": 177.12730054229382,
+            "top": 330.1158632550921,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              2.1718146718146727
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcmd6-sfrkoq"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_1",
+            "type": "line",
+            "left": 256.0365890444015,
+            "top": 198.3590623126527,
+            "width": 3,
+            "start": [
+              0,
+              2.1718146718146727
+            ],
+            "end": [
+              1.44785435503519,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_2",
+            "type": "line",
+            "left": 257.4844433994367,
+            "top": 196.18724764083805,
+            "width": 3,
+            "start": [
+              0,
+              2.1718146718146443
+            ],
+            "end": [
+              2.8957749885941553,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_3",
+            "type": "line",
+            "left": 260.38021838803087,
+            "top": 194.01543296902338,
+            "width": 3,
+            "start": [
+              0,
+              2.1718146718146727
+            ],
+            "end": [
+              3.619669026849863,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_4",
+            "type": "line",
+            "left": 263.99988741488073,
+            "top": 190.39576394217355,
+            "width": 3,
+            "start": [
+              0,
+              3.6196690268498344
+            ],
+            "end": [
+              5.791549977188367,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_5",
+            "type": "line",
+            "left": 269.7914373920691,
+            "top": 187.49998895357936,
+            "width": 3,
+            "start": [
+              0,
+              2.8957749885941837
+            ],
+            "end": [
+              7.963298370479151,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_6",
+            "type": "line",
+            "left": 277.75473576254825,
+            "top": 178.0888030888031,
+            "width": 3,
+            "start": [
+              0,
+              9.411185864776257
+            ],
+            "end": [
+              20.994186401367188,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_7",
+            "type": "line",
+            "left": 298.74892216391544,
+            "top": 174.46910092269133,
+            "width": 3,
+            "start": [
+              0,
+              3.6197021661117788
+            ],
+            "end": [
+              13.754848347667576,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_8",
+            "type": "line",
+            "left": 312.503770511583,
+            "top": 171.5733590733591,
+            "width": 3,
+            "start": [
+              0,
+              2.8957418493322393
+            ],
+            "end": [
+              13.030888030888036,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_9",
+            "type": "line",
+            "left": 325.53465854247105,
+            "top": 167.9536569072473,
+            "width": 3,
+            "start": [
+              0,
+              3.6197021661117788
+            ],
+            "end": [
+              11.583033675852903,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_10",
+            "type": "line",
+            "left": 337.11769221832395,
+            "top": 165.78184223543263,
+            "width": 3,
+            "start": [
+              0,
+              2.1718146718146727
+            ],
+            "end": [
+              12.306927714108497,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_11",
+            "type": "line",
+            "left": 349.42461993243245,
+            "top": 165.05791505791507,
+            "width": 3,
+            "start": [
+              0,
+              0.7239271775175666
+            ],
+            "end": [
+              10.135113042293824,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_12",
+            "type": "line",
+            "left": 359.5597329747263,
+            "top": 163.61002756361796,
+            "width": 3,
+            "start": [
+              0,
+              1.447887494297106
+            ],
+            "end": [
+              8.68725868725869,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_13",
+            "type": "line",
+            "left": 368.24699166198496,
+            "top": 163.61002756361796,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              5.791549977188424,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_14",
+            "type": "line",
+            "left": 374.0385416391734,
+            "top": 163.61002756361796,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              3.619669026849806,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_15",
+            "type": "line",
+            "left": 377.6582106660232,
+            "top": 163.61002756361796,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              2.8957749885941553,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_16",
+            "type": "line",
+            "left": 380.55398565461735,
+            "top": 163.61002756361796,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              1.44785435503519,
+              2.895774988594212
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_17",
+            "type": "line",
+            "left": 382.00184000965254,
+            "top": 166.50580255221217,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              1.4478543550351333,
+              2.8957418493322393
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_18",
+            "type": "line",
+            "left": 383.4496943646877,
+            "top": 169.4015444015444,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0.7239603167795394,
+              6.515444015444018
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_19",
+            "type": "line",
+            "left": 384.1736546814672,
+            "top": 175.91698841698843,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              7.239371192961585
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_20",
+            "type": "line",
+            "left": 384.1736546814672,
+            "top": 183.15635960995002,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              10.135146181555768
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_21",
+            "type": "line",
+            "left": 383.4496943646877,
+            "top": 193.29150579150578,
+            "width": 3,
+            "start": [
+              0.7239603167795394,
+              0
+            ],
+            "end": [
+              0,
+              13.030888030888036
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_22",
+            "type": "line",
+            "left": 379.83002533783787,
+            "top": 206.32239382239382,
+            "width": 3,
+            "start": [
+              3.619669026849806,
+              0
+            ],
+            "end": [
+              0,
+              11.58300053659093
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_23",
+            "type": "line",
+            "left": 375.4863959942085,
+            "top": 217.90539435898475,
+            "width": 3,
+            "start": [
+              4.343629343629345,
+              0
+            ],
+            "end": [
+              0,
+              12.30696085337047
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_24",
+            "type": "line",
+            "left": 367.52309762372937,
+            "top": 230.21235521235522,
+            "width": 3,
+            "start": [
+              7.963298370479151,
+              0
+            ],
+            "end": [
+              0,
+              13.754815208405603
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_25",
+            "type": "line",
+            "left": 357.3879183029116,
+            "top": 243.96717042076082,
+            "width": 3,
+            "start": [
+              10.13517932081777,
+              0
+            ],
+            "end": [
+              0,
+              13.030888030888008
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_26",
+            "type": "line",
+            "left": 341.4613215619533,
+            "top": 256.99805845164883,
+            "width": 3,
+            "start": [
+              15.926596740958303,
+              0
+            ],
+            "end": [
+              0,
+              13.030888030888036
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_27",
+            "type": "line",
+            "left": 326.2586188592506,
+            "top": 270.02894648253687,
+            "width": 3,
+            "start": [
+              15.202702702702709,
+              0
+            ],
+            "end": [
+              0,
+              10.859073359073363
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_28",
+            "type": "line",
+            "left": 311.7798101948035,
+            "top": 280.88801984161023,
+            "width": 3,
+            "start": [
+              14.478808664447115,
+              0
+            ],
+            "end": [
+              0,
+              9.41121900403823
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_29",
+            "type": "line",
+            "left": 302.3686574692892,
+            "top": 290.29923884564846,
+            "width": 3,
+            "start": [
+              9.411152725514285,
+              0
+            ],
+            "end": [
+              0,
+              7.2394043322235575
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_30",
+            "type": "line",
+            "left": 291.5095841102158,
+            "top": 297.538643177872,
+            "width": 3,
+            "start": [
+              10.859073359073363,
+              0
+            ],
+            "end": [
+              0,
+              6.515444015444018
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_31",
+            "type": "line",
+            "left": 282.0983651061776,
+            "top": 304.05408719331604,
+            "width": 3,
+            "start": [
+              9.41121900403823,
+              0
+            ],
+            "end": [
+              0,
+              6.515444015444018
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_32",
+            "type": "line",
+            "left": 272.6871461021394,
+            "top": 310.56953120876005,
+            "width": 3,
+            "start": [
+              9.411219004038173,
+              0
+            ],
+            "end": [
+              0,
+              4.343629343629345
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_33",
+            "type": "line",
+            "left": 263.99988741488073,
+            "top": 314.9131605523894,
+            "width": 3,
+            "start": [
+              8.68725868725869,
+              0
+            ],
+            "end": [
+              0,
+              3.619669026849806
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_34",
+            "type": "line",
+            "left": 256.0365890444015,
+            "top": 318.5328295792392,
+            "width": 3,
+            "start": [
+              7.963298370479208,
+              0
+            ],
+            "end": [
+              0,
+              2.895774988594212
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_35",
+            "type": "line",
+            "left": 250.96899938399267,
+            "top": 321.4286045678334,
+            "width": 3,
+            "start": [
+              5.067589660408856,
+              0
+            ],
+            "end": [
+              0,
+              2.1718146718146727
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_36",
+            "type": "line",
+            "left": 248.797184712178,
+            "top": 323.6004192396481,
+            "width": 3,
+            "start": [
+              2.1718146718146727,
+              0
+            ],
+            "end": [
+              0,
+              0.7238940382555938
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_37",
+            "type": "line",
+            "left": 248.797184712178,
+            "top": 324.3243132779037,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              1.4479206335590789,
+              0.7239603167795394
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_38",
+            "type": "line",
+            "left": 250.24510534573707,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              2.1718146718146727,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_39",
+            "type": "line",
+            "left": 252.41692001755175,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              4.343629343629317,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_40",
+            "type": "line",
+            "left": 256.76054936118106,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              8.68725868725869,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_41",
+            "type": "line",
+            "left": 265.44780804843975,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              13.030888030888036,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_42",
+            "type": "line",
+            "left": 278.4786960793278,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              19.546332046332054,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_43",
+            "type": "line",
+            "left": 298.02502812565984,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              29.68144508862588,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_44",
+            "type": "line",
+            "left": 327.7064732142857,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              32.57722007722009,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_45",
+            "type": "line",
+            "left": 360.2836932915058,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              35.472995065814246,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_46",
+            "type": "line",
+            "left": 395.75668835732006,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              35.47292878729036,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_47",
+            "type": "line",
+            "left": 431.2296171446104,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              35.4729950658143,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_48",
+            "type": "line",
+            "left": 466.7026122104247,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              32.57722007722009,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_49",
+            "type": "line",
+            "left": 499.2798322876448,
+            "top": 325.0482735946832,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              23.8899613899614,
+              1.4478543550351333
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_50",
+            "type": "line",
+            "left": 523.1697936776062,
+            "top": 326.49612794971836,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              12.306927714108497,
+              1.4479206335590789
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_51",
+            "type": "line",
+            "left": 535.4767213917147,
+            "top": 327.94404858327744,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              4.343629343629345,
+              0.7238940382555938
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcn1l-86o1mp_52",
+            "type": "line",
+            "left": 539.820350735344,
+            "top": 328.66794262153303,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              2.1718146718146727,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcn1l-86o1mp"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_1",
+            "type": "line",
+            "left": 613.6620495770429,
+            "top": 160.71428571428572,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              2.895841267118044,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_2",
+            "type": "line",
+            "left": 616.557890844161,
+            "top": 160.71428571428572,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              13.030888030888036,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_3",
+            "type": "line",
+            "left": 629.588778875049,
+            "top": 160.71428571428572,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              10.135046763769992,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_4",
+            "type": "line",
+            "left": 639.723825638819,
+            "top": 160.71428571428572,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              11.583099954376735,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_5",
+            "type": "line",
+            "left": 651.3069255931957,
+            "top": 160.71428571428572,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              14.478676107399224,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_6",
+            "type": "line",
+            "left": 665.785601700595,
+            "top": 160.71428571428572,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              17.37451737451738,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_7",
+            "type": "line",
+            "left": 683.1601190751123,
+            "top": 160.71428571428572,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              21.718146718146727,
+              0.7239271775175666
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_8",
+            "type": "line",
+            "left": 704.8782657932591,
+            "top": 161.4382128918033,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              14.478808664447115,
+              2.1718146718146727
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_9",
+            "type": "line",
+            "left": 719.3570744577062,
+            "top": 163.61002756361796,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              13.030888030888036,
+              3.6197021661117788
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_10",
+            "type": "line",
+            "left": 732.3879624885942,
+            "top": 167.22972972972974,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              9.411152725514285,
+              2.1718146718146727
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_11",
+            "type": "line",
+            "left": 741.7991152141085,
+            "top": 169.4015444015444,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              7.963364649003097,
+              3.6197021661117788
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_12",
+            "type": "line",
+            "left": 749.7624798631116,
+            "top": 173.0212465676562,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              2.1718146718146727,
+              2.8957418493322393
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_13",
+            "type": "line",
+            "left": 751.9342945349263,
+            "top": 175.91698841698843,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0.7238940382555938,
+              2.1718146718146727
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_14",
+            "type": "line",
+            "left": 752.6581885731819,
+            "top": 178.0888030888031,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0.724026595303485,
+              5.791516837926423
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_15",
+            "type": "line",
+            "left": 753.3822151684853,
+            "top": 183.88031992672953,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              5.067556521146912
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_16",
+            "type": "line",
+            "left": 752.6581885731819,
+            "top": 188.94787644787644,
+            "width": 3,
+            "start": [
+              0.724026595303485,
+              0
+            ],
+            "end": [
+              0,
+              6.515444015444018
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_17",
+            "type": "line",
+            "left": 751.9342945349263,
+            "top": 195.46332046332046,
+            "width": 3,
+            "start": [
+              0.7238940382555938,
+              0
+            ],
+            "end": [
+              0,
+              3.6197021661117788
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_18",
+            "type": "line",
+            "left": 744.6949564812267,
+            "top": 199.08302262943224,
+            "width": 3,
+            "start": [
+              7.239338053699612,
+              0
+            ],
+            "end": [
+              0,
+              11.58300053659093
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_19",
+            "type": "line",
+            "left": 738.1795124657826,
+            "top": 210.66602316602317,
+            "width": 3,
+            "start": [
+              6.515444015444018,
+              0
+            ],
+            "end": [
+              0,
+              5.067556521146912
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_20",
+            "type": "line",
+            "left": 728.7682271832205,
+            "top": 215.73357968717008,
+            "width": 3,
+            "start": [
+              9.411285282562176,
+              0
+            ],
+            "end": [
+              0,
+              5.067589660408885
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_21",
+            "type": "line",
+            "left": 717.9091538241471,
+            "top": 220.80116934757896,
+            "width": 3,
+            "start": [
+              10.859073359073363,
+              0
+            ],
+            "end": [
+              0,
+              5.791483698664479
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_22",
+            "type": "line",
+            "left": 706.3261864268181,
+            "top": 226.59265304624344,
+            "width": 3,
+            "start": [
+              11.582967397328957,
+              0
+            ],
+            "end": [
+              0,
+              4.343629343629345
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_23",
+            "type": "line",
+            "left": 694.0191924341857,
+            "top": 230.9362823898728,
+            "width": 3,
+            "start": [
+              12.306993992632442,
+              0
+            ],
+            "end": [
+              0,
+              5.067589660408885
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_24",
+            "type": "line",
+            "left": 680.9883044032977,
+            "top": 236.00387205028167,
+            "width": 3,
+            "start": [
+              13.030888030888036,
+              0
+            ],
+            "end": [
+              0,
+              3.619669026849806
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_25",
+            "type": "line",
+            "left": 668.6814429677131,
+            "top": 239.62354107713148,
+            "width": 3,
+            "start": [
+              12.306861435584551,
+              0
+            ],
+            "end": [
+              0,
+              3.6197021661117788
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_26",
+            "type": "line",
+            "left": 657.0983430133363,
+            "top": 243.24324324324326,
+            "width": 3,
+            "start": [
+              11.583099954376848,
+              0
+            ],
+            "end": [
+              0,
+              2.1718146718146727
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_27",
+            "type": "line",
+            "left": 646.9632962495664,
+            "top": 245.41505791505793,
+            "width": 3,
+            "start": [
+              10.135046763769878,
+              0
+            ],
+            "end": [
+              0,
+              1.447887494297106
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_28",
+            "type": "line",
+            "left": 644.0674549824483,
+            "top": 246.86294540935504,
+            "width": 3,
+            "start": [
+              2.895841267118044,
+              0
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_29",
+            "type": "line",
+            "left": 641.171746272378,
+            "top": 246.86294540935504,
+            "width": 3,
+            "start": [
+              2.89570871007038,
+              0
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_30",
+            "type": "line",
+            "left": 639.723825638819,
+            "top": 246.86294540935504,
+            "width": 3,
+            "start": [
+              1.4479206335589652,
+              0
+            ],
+            "end": [
+              0,
+              0.7239271775175666
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_31",
+            "type": "line",
+            "left": 639.723825638819,
+            "top": 247.5868725868726,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              5.067655938932717,
+              1.447887494297106
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_32",
+            "type": "line",
+            "left": 644.7914815777517,
+            "top": 249.0347600811697,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              5.791417420140533,
+              2.1718146718146443
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_33",
+            "type": "line",
+            "left": 650.5828989978922,
+            "top": 251.20657475298435,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              7.963364649003097,
+              5.791483698664479
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_34",
+            "type": "line",
+            "left": 658.5462636468953,
+            "top": 256.99805845164883,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              10.859073359073363,
+              5.791549977188424
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_35",
+            "type": "line",
+            "left": 669.4053370059687,
+            "top": 262.78960842883725,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              12.306993992632442,
+              8.68725868725869
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_36",
+            "type": "line",
+            "left": 681.7123309986011,
+            "top": 271.47686711609595,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              14.478676107399224,
+              10.859073359073363
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_37",
+            "type": "line",
+            "left": 696.1910071060004,
+            "top": 282.3359404751693,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              13.030888030888036,
+              10.135113042293824
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_38",
+            "type": "line",
+            "left": 709.2218951368884,
+            "top": 292.47105351746313,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              18.098543969820867,
+              21.718146718146727
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_39",
+            "type": "line",
+            "left": 727.3204391067093,
+            "top": 314.18920023560986,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              4.343629343629345,
+              8.68725868725869
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_40",
+            "type": "line",
+            "left": 731.6640684503386,
+            "top": 322.87645892286855,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              3.6196027483258604,
+              7.963298370479151
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_41",
+            "type": "line",
+            "left": 735.2836711986645,
+            "top": 330.8397572933477,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0.724026595303485,
+              12.306993992632385
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_42",
+            "type": "line",
+            "left": 736.007697793968,
+            "top": 343.1467512859801,
+            "width": 3,
+            "start": [
+              0,
+              0
+            ],
+            "end": [
+              0,
+              7.239338053699669
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_43",
+            "type": "line",
+            "left": 732.3879624885942,
+            "top": 350.38608933967976,
+            "width": 3,
+            "start": [
+              3.6197353053737515,
+              0
+            ],
+            "end": [
+              0,
+              6.515444015444018
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_44",
+            "type": "line",
+            "left": 722.9768097630799,
+            "top": 356.9015333551238,
+            "width": 3,
+            "start": [
+              9.411152725514285,
+              0
+            ],
+            "end": [
+              0,
+              11.583033675852846
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_45",
+            "type": "line",
+            "left": 715.0134451140768,
+            "top": 368.4845670309766,
+            "width": 3,
+            "start": [
+              7.963364649003097,
+              0
+            ],
+            "end": [
+              0,
+              5.067589660408885
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_46",
+            "type": "line",
+            "left": 707.0500804650737,
+            "top": 373.5521566913855,
+            "width": 3,
+            "start": [
+              7.963364649003097,
+              0
+            ],
+            "end": [
+              0,
+              2.8957087100703234
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_47",
+            "type": "line",
+            "left": 698.362821777815,
+            "top": 376.44786540145583,
+            "width": 3,
+            "start": [
+              8.68725868725869,
+              0
+            ],
+            "end": [
+              0,
+              3.6197353053736947
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_48",
+            "type": "line",
+            "left": 675.9207810214127,
+            "top": 380.0676007068295,
+            "width": 3,
+            "start": [
+              22.44204075640232,
+              0
+            ],
+            "end": [
+              0,
+              2.1718146718146727
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_49",
+            "type": "line",
+            "left": 663.6137870287803,
+            "top": 382.2394153786442,
+            "width": 3,
+            "start": [
+              12.306993992632442,
+              0
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_50",
+            "type": "line",
+            "left": 643.3435609441926,
+            "top": 381.51545506186466,
+            "width": 3,
+            "start": [
+              20.270226084587648,
+              0.7239603167795394
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_51",
+            "type": "line",
+            "left": 623.7972288978606,
+            "top": 378.6196800732705,
+            "width": 3,
+            "start": [
+              19.546332046332054,
+              2.8957749885941553
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_52",
+            "type": "line",
+            "left": 598.4593468743402,
+            "top": 374.27605072964116,
+            "width": 3,
+            "start": [
+              25.337882023520365,
+              4.343629343629345
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_53",
+            "type": "line",
+            "left": 591.2200088206406,
+            "top": 372.1042360578265,
+            "width": 3,
+            "start": [
+              7.239338053699612,
+              2.1718146718146727
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_54",
+            "type": "line",
+            "left": 587.6002735152668,
+            "top": 371.38034201957083,
+            "width": 3,
+            "start": [
+              3.6197353053737515,
+              0.7238940382556507
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_55",
+            "type": "line",
+            "left": 586.1524854387555,
+            "top": 370.6563817027913,
+            "width": 3,
+            "start": [
+              1.4477880765113014,
+              0.7239603167795394
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_56",
+            "type": "line",
+            "left": 584.7045648051966,
+            "top": 368.4845670309766,
+            "width": 3,
+            "start": [
+              1.4479206335589652,
+              2.1718146718146727
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_57",
+            "type": "line",
+            "left": 583.9806707669409,
+            "top": 366.31275235916195,
+            "width": 3,
+            "start": [
+              0.7238940382557075,
+              2.1718146718146727
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_58",
+            "type": "line",
+            "left": 583.2566441716375,
+            "top": 362.69308333231214,
+            "width": 3,
+            "start": [
+              0.7240265953033713,
+              3.619669026849806
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_59",
+            "type": "line",
+            "left": 582.5327501333819,
+            "top": 357.6254936719033,
+            "width": 3,
+            "start": [
+              0.7238940382555938,
+              5.067589660408828
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          },
+          {
+            "id": "line_wb-stroke-mncwcnq9-6izi8g_60",
+            "type": "line",
+            "left": 581.8088560951262,
+            "top": 351.8340099732388,
+            "width": 3,
+            "start": [
+              0.7238940382557075,
+              5.7914836986645355
+            ],
+            "end": [
+              0,
+              0
+            ],
+            "style": "solid",
+            "color": "#111827",
+            "points": [
+              "",
+              ""
+            ],
+            "groupId": "wb-stroke-mncwcnq9-6izi8g"
+          }
+        ],
+        "background": {
+          "type": "solid",
+          "color": "#ffffff"
+        },
+        "animations": []
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "yXcqWBUaQLZYEO7BEQPuy",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "智绘生物：中心法则与基因表达",
+      "order": 0,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "XnID77jiEZkyeDMRhlthA",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "eUSzYOA2w7mCSBYI53Vqe",
+              "type": "text",
+              "left": 48,
+              "top": 96,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:34px;font-weight:700;color:#174f37;line-height:1.25\">智绘生物：中心法则与基因表达</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "KhWw2wNc08DrolNwWWa4q",
+              "type": "text",
+              "left": 48,
+              "top": 200,
+              "width": 472,
+              "height": 96,
+              "content": "<p style=\"text-align:center;font-size:17px;color:#456154;line-height:1.8\">封面页建立认知锚点，强调本项目旨在通过可视化手段理解抽象的分子机制。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "bNMW6PdUrfD4nfBNyy7ex",
+              "type": "text",
+              "left": 48,
+              "top": 320,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>学科：高中生物（高一）</li><li>主题：遗传信息的流动与可视化</li><li>认知锚点：生命是物质、能量和信息的统一体</li><li>项目：智绘生物逻辑图谱</li><li>教材：必修 2 遗传与进化</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "ClJ_FZnf63l3UE1AeivKn",
+              "type": "image",
+              "left": 558,
+              "top": 122,
+              "width": 360,
+              "height": 300,
+              "src": "/v1/assets/images/genetics_evolution_overview.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_yIuejpzY",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "封面页建立认知锚点，强调本项目旨在通过可视化手段理解抽象的分子机制。。学科：高中生物（高一）；主题：遗传信息的流动与可视化；认知锚点：生命是物质、能量和信息的统一体；项目：智绘生物逻辑图谱；教材：必修 2 遗传与进化。背景为 DNA 双螺旋与蛋白质结构交织的艺术化图案，突出'智绘'主题。"
+        }
+      ],
+      "createdAt": 1774860423984,
+      "updatedAt": 1774860423984
+    },
+    {
+      "id": "mLK383wKIiQYE7yHBWbb8",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "项目导入：为何要'智绘'生物？",
+      "order": 1,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "QDiaxJEEuqbf3bSt1Fh_C",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "N7GDWZnWbfhggUtxv7rKn",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">项目导入：为何要'智绘'生物？</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "YbL1Du_SOUAZX6shsnD3q",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">引导学生理解将抽象过程转化为可视图谱的重要性，呼应'智绘生物'项目目标。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "dMeWp839fA6sCWPgMDlWN",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>微观过程不可见，需逻辑可视化</li><li>从信息传递角度理解生命活动</li><li>基因指导蛋白质合成的全过程</li><li>培养科学思维与建模能力</li><li>连接必修 1 分子基础与必修 2 遗传</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_QBN6BVyO",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "引导学生理解将抽象过程转化为可视图谱的重要性，呼应'智绘生物'项目目标。。微观过程不可见，需逻辑可视化；从信息传递角度理解生命活动；基因指导蛋白质合成的全过程；培养科学思维与建模能力；连接必修 1 分子基础与必修 2 遗传。左侧展示显微镜下的细胞，右侧展示抽象的信息流动流程图。"
+        }
+      ],
+      "createdAt": 1774860423984,
+      "updatedAt": 1774860423984
+    },
+    {
+      "id": "8Mq7UGYhRneeEJ1utSEaY",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "核心概念：中心法则的提出",
+      "order": 2,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "i3LCfk-WOoCYUd-P3CGXI",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "ZWmD0BJseDcyKgPK8RmvA",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">核心概念：中心法则的提出</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "H8DViFRjUg5OTXLpYxD4R",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">介绍历史背景，强调中心法则是生物学的核心逻辑，是'智绘'的骨架。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "Xvzl728bbDUoWt6DFAIF4",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>1957 年克里克（Crick）提出</li><li>预见遗传信息传递的一般规律</li><li>DNA 是信息的载体</li><li>蛋白质是信息的表达产物</li><li>构建生命信息的逻辑框架</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "9okE4ovPrrkiaA1h-xWNZ",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/transcription_textbook.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_KgNrK8iw",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "介绍历史背景，强调中心法则是生物学的核心逻辑，是'智绘'的骨架。。1957 年克里克（Crick）提出；预见遗传信息传递的一般规律；DNA 是信息的载体；蛋白质是信息的表达产物；构建生命信息的逻辑框架。克里克肖像与 1957 年手稿示意图，突出'Central Dogma'字样。"
+        }
+      ],
+      "createdAt": 1774860423984,
+      "updatedAt": 1774860423984
+    },
+    {
+      "id": "CFBYLZS6ye6RPeYMeex9T",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "信息流动一：DNA 复制",
+      "order": 3,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "YFomTpYQR--bwBq4MEk7A",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "Pryzn9BETmq5u2M3fcSad",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">信息流动一：DNA 复制</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "bsXgYj8NSwH3mOfSC7rpb",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">简述复制过程，强调这是信息传递的起点，确保遗传信息代代相传。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "rbcr8c7eOq5uBMbDgzPqd",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>流向：DNA → DNA</li><li>场所：主要在细胞核</li><li>意义：遗传信息的连续性</li><li>条件：模板、原料、能量、酶</li><li>智绘重点：半保留复制模型</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "h6RItxXigVMeNQvnJfct7",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/dna_replication_notes.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_b54WZYEg",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "简述复制过程，强调这是信息传递的起点，确保遗传信息代代相传。。流向：DNA → DNA；场所：主要在细胞核；意义：遗传信息的连续性；条件：模板、原料、能量、酶；智绘重点：半保留复制模型。DNA 双螺旋解旋并合成两条新链的动态示意图。"
+        }
+      ],
+      "createdAt": 1774860423984,
+      "updatedAt": 1774860423984
+    },
+    {
+      "id": "-yzxzdwX6UehwfOj5SdKe",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "信息流动二：转录与翻译",
+      "order": 4,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "cnZsX9QluSjRj4dknkk6s",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "DI0zBfxn5-olDyQW4ijsa",
+              "type": "text",
+              "left": 48,
+              "top": 68,
+              "width": 480,
+              "height": 90,
+              "content": "<p style=\"text-align:left;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">信息流动二：转录与翻译</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "eFDu0oEaXQEikzbTHHD1i",
+              "type": "text",
+              "left": 48,
+              "top": 168,
+              "width": 472,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">讲解基因表达的两个关键步骤，强调空间上的核质分工。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "apgDsp8l9y1al3yhLr4fR",
+              "type": "text",
+              "left": 48,
+              "top": 290,
+              "width": 470,
+              "height": 180,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>转录：DNA → RNA（细胞核）</li><li>翻译：RNA → 蛋白质（细胞质）</li><li>mRNA 是遗传信息的信使</li><li>核糖体是蛋白质合成车间</li><li>智绘重点：空间与时间的配合</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            },
+            {
+              "id": "o1aeM0v3LMWxdhBuUs4ld",
+              "type": "image",
+              "left": 558,
+              "top": 72,
+              "width": 360,
+              "height": 420,
+              "src": "/v1/assets/images/transcription_detail.jpg",
+              "rotate": 0,
+              "fixedRatio": true
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_kNrp_-fH",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "讲解基因表达的两个关键步骤，强调空间上的核质分工。。转录：DNA → RNA（细胞核）；翻译：RNA → 蛋白质（细胞质）；mRNA 是遗传信息的信使；核糖体是蛋白质合成车间；智绘重点：空间与时间的配合。细胞核内转录出 mRNA，mRNA 穿过核孔进入细胞质结合核糖体。"
+        }
+      ],
+      "createdAt": 1774860423984,
+      "updatedAt": 1774860423984
+    },
+    {
+      "id": "QJ2MZfCMVyp27-hYviYHe",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "高效合成：多聚核糖体",
+      "order": 5,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "gPEjsBLBJ2B1E9BfkBiQg",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "23brNVTWxO1u3DJYrOcPF",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">高效合成：多聚核糖体</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "30YqE6mGzQLz6xyVd23Wu",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">结合参考资料，解释为何细胞能高效合成蛋白质，这是逻辑美的体现。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "R6mzy4Jd0YUtUhLMQqCqD",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>一个 mRNA 结合多个核糖体</li><li>同时合成多条肽链</li><li>少量 mRNA 迅速合成大量蛋白质</li><li>体现翻译的快速高效性</li><li>智绘重点：并行处理逻辑</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_9CC251sr",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "结合参考资料，解释为何细胞能高效合成蛋白质，这是逻辑美的体现。。一个 mRNA 结合多个核糖体；同时合成多条肽链；少量 mRNA 迅速合成大量蛋白质；体现翻译的快速高效性；智绘重点：并行处理逻辑。一条 mRNA 链上串联多个核糖体，每条核糖体下挂着不同长度的肽链。"
+        }
+      ],
+      "createdAt": 1774860423984,
+      "updatedAt": 1774860423984
+    },
+    {
+      "id": "ZMPGI0rFzxQqS41lWsIqr",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "法则补充：RNA 病毒的特例",
+      "order": 6,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "x4WGwy5YQ5xFj97tYn_ph",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "IBSwcBRyMxigt8RVjC5R3",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">法则补充：RNA 病毒的特例</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "Oe6OC7_9QlIO5E6ZmAfSL",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">说明中心法则不是绝对的，科学是不断发展的，补充 RNA 病毒的特殊路径。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "GA5qrlMXRGF7ucDVaGO-g",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>少数生物遗传信息流向特殊</li><li>RNA → RNA（RNA 复制）</li><li>RNA → DNA（逆转录）</li><li>中心法则的完善与发展</li><li>智绘重点：例外情况的标注</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_R1ENg3RN",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "说明中心法则不是绝对的，科学是不断发展的，补充 RNA 病毒的特殊路径。。少数生物遗传信息流向特殊；RNA → RNA（RNA 复制）；RNA → DNA（逆转录）；中心法则的完善与发展；智绘重点：例外情况的标注。在中心法则主图旁分支出 RNA 复制和逆转录的虚线箭头。"
+        }
+      ],
+      "createdAt": 1774860423985,
+      "updatedAt": 1774860423985
+    },
+    {
+      "id": "ZNxgVKfJTB0DpgBjRTa_B",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "生命本质：物质、能量与信息",
+      "order": 7,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "qIZMn1m9wUK5kOM2UKqOj",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "YnaFNLTHLYX_U5CXQ-wbn",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">生命本质：物质、能量与信息</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "Q9kqYHyVFKCM5RlYu0Bhl",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">升华主题，从信息论角度理解生命，强调 ATP 在过程中的供能作用。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "D_p6zOAKwr1o9B4rECbbx",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>DNA、RNA 是信息载体</li><li>蛋白质是信息表达产物</li><li>ATP 为信息流动提供能量</li><li>生命是三者的统一体</li><li>智绘重点：能量流的标注</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_LjH27HLL",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "升华主题，从信息论角度理解生命，强调 ATP 在过程中的供能作用。。DNA、RNA 是信息载体；蛋白质是信息表达产物；ATP 为信息流动提供能量；生命是三者的统一体；智绘重点：能量流的标注。三角形关系图，三个顶点分别是物质、能量、信息，中心是'生命'。"
+        }
+      ],
+      "createdAt": 1774860423985,
+      "updatedAt": 1774860423985
+    },
+    {
+      "id": "Uc1DrKPd7hLcEIt5SgAut",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "互动游戏：信息流路径填充",
+      "order": 8,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "euUb9MJhISGU3uWtqiTlV",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "ixWndRfselg1-MtTDEDzg",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">互动游戏：信息流路径填充</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "6LuUXWNlzFiyaqnWNovNH",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">通过游戏检测学生对信息流向的掌握情况，活跃课堂气氛。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "IM16Vgw1pLd2WPhSp3Hk_",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>游戏规则：补全中心法则路径</li><li>识别正常细胞与病毒差异</li><li>判断能量供应环节</li><li>小组竞赛：速度与准确率</li><li>巩固遗传信息流动逻辑</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_YmVHTKLp",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "通过游戏检测学生对信息流向的掌握情况，活跃课堂气氛。。游戏规则：补全中心法则路径；识别正常细胞与病毒差异；判断能量供应环节；小组竞赛：速度与准确率；巩固遗传信息流动逻辑。屏幕显示未完成的流程图，学生点击选项框填入正确过程。"
+        }
+      ],
+      "createdAt": 1774860423985,
+      "updatedAt": 1774860423985
+    },
+    {
+      "id": "XLyLhKMhKxKtqgh1T34r-",
+      "stageId": "jc_Edu1gYt",
+      "type": "slide",
+      "title": "课堂总结与课后任务",
+      "order": 9,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "9OuuIr_Zf_lMua3q5kfCN",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#f3fbf7",
+            "themeColors": [
+              "#174f37",
+              "#2c7a57",
+              "#53a779",
+              "#9ad3b0",
+              "#dff5e7"
+            ],
+            "fontColor": "#174f37",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#2c7a57",
+              "width": 1,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 2,
+              "blur": 8,
+              "color": "#00000012"
+            }
+          },
+          "elements": [
+            {
+              "id": "7OdLRq87WhC2fxuZJ8DeX",
+              "type": "text",
+              "left": 72,
+              "top": 68,
+              "width": 856,
+              "height": 90,
+              "content": "<p style=\"text-align:center;font-size:30px;font-weight:700;color:#174f37;line-height:1.25\">课堂总结与课后任务</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#174f37"
+            },
+            {
+              "id": "BupOeKre0rTC2DLWPb-vP",
+              "type": "text",
+              "left": 96,
+              "top": 168,
+              "width": 808,
+              "height": 120,
+              "content": "<p style=\"text-align:left;font-size:17px;color:#456154;line-height:1.8\">总结全课，布置可视化作业，将课堂知识转化为个人作品。</p>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#456154"
+            },
+            {
+              "id": "LqxbzOkbZn4L6YU2-92Eo",
+              "type": "text",
+              "left": 92,
+              "top": 290,
+              "width": 816,
+              "height": 220,
+              "content": "<ul style=\"font-size:16px;color:#4b5563;line-height:1.9;padding-left:20px\"><li>回顾中心法则核心路径</li><li>理解翻译的高效性机制</li><li>感悟生命的逻辑美</li><li>任务：绘制'智绘生物'图谱</li><li>下节预告：基因与性状关系</li></ul>",
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#4b5563"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#f3fbf7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_07HznQlr",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "总结全课，布置可视化作业，将课堂知识转化为个人作品。。回顾中心法则核心路径；理解翻译的高效性机制；感悟生命的逻辑美；任务：绘制'智绘生物'图谱；下节预告：基因与性状关系。展示优秀的学生手绘中心法则作品示例，鼓励创作。"
+        }
+      ],
+      "createdAt": 1774860423985,
+      "updatedAt": 1774860423985
+    },
+    {
+      "id": "X1NG9of3H10rXWCN6X15f",
+      "stageId": "jc_Edu1gYt",
+      "type": "interactive",
+      "title": "教案",
+      "order": 10,
+      "content": {
+        "type": "interactive",
+        "url": "/api/artifacts/preview?session_id=n8RZZwck2uvlJPpFGcbim&artifact_type=docx&version_id=ver_e5a63d01",
+        "resourceKind": "lesson_plan",
+        "artifactType": "docx",
+        "versionId": "ver_e5a63d01"
+      },
+      "actions": [
+        {
+          "id": "action_sHCtHn9c",
+          "type": "speech",
+          "title": "场景讲解",
+          "text": "这里展示本次生成的完整教案，便于备课、讲授和课堂复盘。"
+        }
+      ],
+      "createdAt": 1774860423985,
+      "updatedAt": 1774860423985
+    }
+  ],
+  "createdAt": "2026-03-30T08:47:04.151Z"
+}
