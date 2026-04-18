@@ -1,8 +1,9 @@
 # ============================================================
-# Edu-RAG Final Config (Recommended)
-# - Vector DB: Milvus Standalone (Docker) + HNSW
+# Edu-RAG Final Config (Desktop / Offline-friendly)
+# - Vector DB: Milvus Lite (embedded, no Docker) + HNSW
 # - Retrieval: BM25 + BGE-M3 dense+sparse hybrid + RRF + rerank + diversity
 # - Generator/VLM: Qwen via OpenAI-compatible API (DashScope / vLLM / etc.)
+# - Device: auto (CUDA if available, otherwise CPU)
 # ============================================================
 
 store_dir: ./rag_store
@@ -23,14 +24,14 @@ chunking:
 embedding_model:
   type: bge-m3
   name_or_path: ./models/bge-m3
-  device: cuda
+  device: auto
   batch_size: 64
-  use_fp16: true
+  use_fp16: false
 
-# ---------------- Vector Store (Milvus Standalone) ----------------
+# ---------------- Vector Store (Milvus Lite - embedded) ----------------
 vector_store:
-  # Milvus Docker 暴露的 gRPC 端口
-  uri: "127.0.0.1:19530"
+  # Milvus Lite 本地文件路径（无需 Docker）。可用 MILVUS_URI 环境变量覆盖。
+  uri: "./rag_store/milvus_lite.db"
 
   metric_type: COSINE
   index_type: HNSW
@@ -82,7 +83,7 @@ retrieval:
 # ---------------- Reranker (Local) ----------------
 reranker:
   name_or_path: ./models/bge-reranker-large
-  device: cuda
+  device: auto
   batch_size: 32
 
 # ---------------- Generator (Qwen API) ----------------
@@ -114,7 +115,7 @@ generator:
 
   # local 备用
   local_model_path: ./models/Qwen2.5-1.5B-Instruct
-  device: cuda
+  device: auto
 
 # ---------------- Parsing (Multi-modal Ingestion) ----------------
 parsing:
@@ -147,15 +148,15 @@ parsing:
   audio:
     prefer: faster-whisper
     model_size: medium
-    device: cuda             # 新增这行
-    compute_type: float16    # 新增这行
+    device: auto             # auto: CUDA if available, else CPU
+    compute_type: auto       # auto: float16 on GPU, int8 on CPU
     segment_level: true
 
   video:
     prefer: faster-whisper
     model_size: medium
-    device: cuda             # 新增这行
-    compute_type: float16    # 新增这行
+    device: auto             # auto: CUDA if available, else CPU
+    compute_type: auto       # auto: float16 on GPU, int8 on CPU
     segment_level: true
     extract_frames: true
     frame_interval_sec: 5
@@ -186,4 +187,4 @@ vlm:
 
   # local 备用
   local_model_path: ./models/Qwen2.5-VL-3B-Instruct
-  device: cuda
+  device: auto

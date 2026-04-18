@@ -20,6 +20,7 @@ import logging
 from typing import Optional
 
 from .config import load_config
+from .utils.model_downloader import ensure_models
 from .infrastructure.cache import EmbeddingCache
 from .infrastructure.generation import AnimationHTMLGenerator, DOCXGenerator, GameHTMLGenerator, PPTXGenerator
 from .infrastructure.llm import LLMRouter
@@ -83,6 +84,13 @@ def create_pipeline(
     cfg = load_config(config_path)
     logger.info("Bootstrapping pipeline from %s", config_path)
     _log_cuda_runtime_status(cfg)
+
+    # 鈹€鈹€ First-run: download embedding/reranker models if missing 鈹€鈹€
+    try:
+        ensure_models(cfg)
+    except Exception as exc:
+        logger.error("Model download failed: %s", exc)
+        raise
 
     # 鈹€鈹€ Initialize database 鈹€鈹€
     init_db()

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>智绘生物</title>
+    <style>
+      :root { color-scheme: dark; }
+      html, body {
+        margin: 0;
+        height: 100%;
+        font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+        background: linear-gradient(145deg, #0f172a 0%, #1e293b 100%);
+        color: #e2e8f0;
+        -webkit-user-select: none;
+      }
+      .wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 28px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .logo {
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        background: linear-gradient(90deg, #60a5fa, #a78bfa);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .subtitle {
+        margin-top: 8px;
+        font-size: 13px;
+        color: #94a3b8;
+      }
+      .status {
+        margin-top: 40px;
+        font-size: 14px;
+        color: #cbd5e1;
+        min-height: 20px;
+      }
+      .service-list {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 12px;
+        color: #94a3b8;
+      }
+      .service-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 12px;
+        margin: 4px 0;
+        background: rgba(30, 41, 59, 0.6);
+        border-radius: 6px;
+      }
+      .service-item .label { color: #cbd5e1; }
+      .service-item .state.pending { color: #64748b; }
+      .service-item .state.progress { color: #60a5fa; }
+      .service-item .state.ready { color: #4ade80; }
+      .service-item .state.error { color: #f87171; }
+      .bar {
+        margin-top: 20px;
+        width: 100%;
+        height: 4px;
+        background: rgba(148, 163, 184, 0.2);
+        border-radius: 2px;
+        overflow: hidden;
+      }
+      .bar-fill {
+        height: 100%;
+        width: 30%;
+        background: linear-gradient(90deg, #60a5fa, #a78bfa);
+        animation: slide 1.8s ease-in-out infinite;
+      }
+      @keyframes slide {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(360%); }
+      }
+      .footer {
+        margin-top: auto;
+        font-size: 11px;
+        color: #475569;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="logo">智绘生物</div>
+      <div class="subtitle">多模态 AI 互动式教学智能体</div>
+      <div id="status" class="status">正在初始化...</div>
+      <div class="service-list" id="services">
+        <div class="service-item" data-service="backend">
+          <span class="label">知识引擎</span>
+          <span class="state pending">等待中</span>
+        </div>
+        <div class="service-item" data-service="digital-human">
+          <span class="label">数字人服务</span>
+          <span class="state pending">等待中</span>
+        </div>
+        <div class="service-item" data-service="frontend">
+          <span class="label">前端界面</span>
+          <span class="state pending">等待中</span>
+        </div>
+      </div>
+      <div class="bar"><div class="bar-fill"></div></div>
+      <div class="footer">首次启动会自动下载模型（约 2.3 GB），请保持网络连接</div>
+    </div>
+
+    <script>
+      const statusLabels = {
+        pending: '等待中',
+        progress: '启动中',
+        ready: '就绪',
+        error: '异常',
+      };
+
+      window.ito?.onStatus?.((payload) => {
+        const { kind, service, message } = payload;
+        const status = document.getElementById('status');
+        if (message) status.textContent = message;
+
+        const item = document.querySelector(`[data-service="${service}"] .state`);
+        if (item) {
+          item.classList.remove('pending', 'progress', 'ready', 'error');
+          item.classList.add(kind);
+          item.textContent = statusLabels[kind] || kind;
+        }
+      });
+    </script>
+  </body>
+</html>

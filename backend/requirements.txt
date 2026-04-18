@@ -6,7 +6,7 @@ rank-bm25>=0.2.2
 # ── Embeddings / Rerank ──
 sentence-transformers>=3.0.0,<4.0
 FlagEmbedding>=1.2.10
-# huggingface-hub 版本由 transformers / sentence-transformers 自动约束，无需显式指定
+huggingface-hub>=0.23.0     # 首次启动时自动下载 bge-m3 / bge-reranker-large
 tokenizers>=0.20.0
 
 # ── LLM ──
@@ -17,6 +17,7 @@ openai>=1.30.0
 
 # ── Vector DB ──
 pymilvus>=2.4.6,<3.0
+milvus-lite>=2.4.10         # 桌面应用内嵌 Milvus，无需 Docker
 
 # ── Persistence ──
 sqlalchemy>=2.0.0

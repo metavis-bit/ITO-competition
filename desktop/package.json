@@ -1,0 +1,76 @@
+{
+  "name": "ito-desktop",
+  "productName": "智绘生物",
+  "version": "1.0.0",
+  "description": "ITO 多模态AI互动式教学智能体 - Desktop",
+  "main": "src/main.js",
+  "private": true,
+  "license": "AGPL-3.0",
+  "scripts": {
+    "start": "electron .",
+    "prepare:runtime": "node scripts/prepare-python-runtime.js",
+    "prepare:frontend": "node scripts/prepare-frontend.js",
+    "prepare:all": "npm run prepare:runtime && npm run prepare:frontend",
+    "dist": "electron-builder --win nsis --x64",
+    "pack": "electron-builder --dir --x64"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "cn.ito.zhihui-shengwu",
+    "productName": "智绘生物",
+    "copyright": "Copyright © 2026 ITO Team",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "src/**/*",
+      "!src/**/*.map",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/python-runtime",
+        "to": "python-runtime",
+        "filter": ["**/*"]
+      },
+      {
+        "from": "resources/backend",
+        "to": "backend",
+        "filter": ["**/*"]
+      },
+      {
+        "from": "resources/digital-human",
+        "to": "digital-human",
+        "filter": ["**/*"]
+      },
+      {
+        "from": "resources/frontend",
+        "to": "frontend",
+        "filter": ["**/*"]
+      }
+    ],
+    "win": {
+      "target": [
+        { "target": "nsis", "arch": ["x64"] }
+      ],
+      "icon": "build/icon.ico",
+      "artifactName": "智绘生物-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": false,
+      "shortcutName": "智绘生物",
+      "installerLanguages": ["zh_CN"],
+      "language": "2052",
+      "include": "build/installer.nsh"
+    },
+    "asar": true,
+    "asarUnpack": []
+  }
+}
